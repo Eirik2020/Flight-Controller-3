@@ -963,7 +963,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -1007,12 +1007,20 @@
       "Project Architecture"
     ],
     [
-      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "Section A - Title A"
+      "6b8b8a56-80fd-4343-a336-2683563c3c7d",
+      "Microcontroller"
     ],
     [
-      "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "Section B - Title B"
+      "a68e5196-e197-42e8-b02d-af398e9957f9",
+      "Inertial Measurement Unit"
+    ],
+    [
+      "253d5c3b-3006-4c7f-964a-fd84ac77ef63",
+      "Power"
+    ],
+    [
+      "60ff9310-1011-42bc-8f26-7264746bca53",
+      "Connectors"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
