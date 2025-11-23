@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Kaldstrand Electronics</textvar>
     <textvar name="DESIGNER">Kaldstrand</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">f26cd56</textvar>
+    <textvar name="GIT_HASH_PCB">873db28</textvar>
     <textvar name="GIT_HASH_SCH">70c4a9a</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>

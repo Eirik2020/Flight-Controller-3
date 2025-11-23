@@ -1039,7 +1039,7 @@
     "COMPANY": "Kaldstrand Electronics",
     "DESIGNER": "Kaldstrand",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "f26cd56",
+    "GIT_HASH_PCB": "873db28",
     "GIT_HASH_SCH": "70c4a9a",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "Flight Controller 3",

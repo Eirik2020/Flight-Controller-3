@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-of36_9do/FCU3.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-nz9lkams/FCU3.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.1+1")
     (textvar (name "ASSEMBLY_NOTES"))
@@ -8,7 +8,7 @@
     (textvar (name "COMPANY") "Kaldstrand Electronics")
     (textvar (name "DESIGNER") "Kaldstrand")
     (textvar (name "FABRICATION_NOTES"))
-    (textvar (name "GIT_HASH_PCB") "f26cd56")
+    (textvar (name "GIT_HASH_PCB") "873db28")
     (textvar (name "GIT_HASH_SCH") "70c4a9a")
     (textvar (name "GIT_URL") "https://github.com/nguyen-v/KDT_Hierarchical_KiBot")
     (textvar (name "PROJECT_NAME") "Flight Controller 3")
