@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Kaldstrand Electronics</textvar>
     <textvar name="DESIGNER">Kaldstrand</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">873db28</textvar>
+    <textvar name="GIT_HASH_PCB">7128ed3</textvar>
     <textvar name="GIT_HASH_SCH">70c4a9a</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">23-Nov-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-11-23</textvar>
+    <textvar name="RELEASE_DATE">24-Nov-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-11-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1855,6 +1855,8 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="S1" pin="2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="VDDIO" pintype="power_in"/>
@@ -1918,11 +1920,11 @@
     </net>
     <net code="13" name="/Project Architecture/I2C1_SCL" class="Default">
       <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="/Project Architecture/I2C1_SDA" class="Default">
       <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
     </net>
     <net code="15" name="/Project Architecture/Inertial Measurement Unit/SPI1_SCK" class="Default">
       <node ref="U1" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
@@ -2017,7 +2019,6 @@
       <node ref="J6" pin="B4_A9" pinfunction="VBUS" pintype="passive"/>
     </net>
     <net code="41" name="AGND" class="Default">
-      <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
@@ -2025,6 +2026,7 @@
       <node ref="U5" pin="12" pinfunction="VSSA" pintype="power_in"/>
     </net>
     <net code="42" name="DGND" class="Default">
+      <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
@@ -2044,8 +2046,6 @@
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="FSYNC" pintype="input"/>
       <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
