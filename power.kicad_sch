@@ -1921,6 +1921,17 @@
 		)
 		(uuid "866e970b-5f8a-439b-a9f3-324ad66f691c")
 	)
+	(text "DESIGN NOTE:\nR_FBT = ( (V_OUT - V_REF) / V_REF) * R_FBB\nR_FBT = ( (9V - 0.6V) / 0.6V) * 10k\nR_FBT = 140k\n\nV_OUT = 9V, V_REF = 0.6V, R11 = 10k, R6 = 140k"
+		(exclude_from_sim no)
+		(at 148.336 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86f7f47b-2351-4e49-abde-1d564550a75c")
+	)
 	(text "Mounting Holes\n"
 		(exclude_from_sim no)
 		(at 74.93 169.164 0)
@@ -1966,7 +1977,7 @@
 	)
 	(text "FB = 9V OUT"
 		(exclude_from_sim no)
-		(at 173.482 56.896 0)
+		(at 172.974 60.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)

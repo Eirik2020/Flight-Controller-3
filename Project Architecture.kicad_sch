@@ -1991,131 +1991,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+9V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+9V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+9V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+9V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+9V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND1"
 			(power)
 			(pin_numbers
@@ -2320,8 +2195,8 @@
 		)
 	)
 	(rectangle
-		(start 40.386 50.292)
-		(end 60.706 64.262)
+		(start 42.926 51.562)
+		(end 63.246 65.532)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2345,7 +2220,7 @@
 	)
 	(text "VTX Interface \n(DJI 04 AIR)"
 		(exclude_from_sim no)
-		(at 336.55 173.736 0)
+		(at 361.188 171.196 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2381,7 +2256,7 @@
 	)
 	(text "DESIGN NOTE:\nESC \"SIG\" can be:\n- DSHOT\n- Multishot\n- Oneshot\n- PWM"
 		(exclude_from_sim no)
-		(at 40.64 57.15 0)
+		(at 43.18 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2404,7 +2279,7 @@
 	)
 	(text "ESC Interface\n(4-in-1 Betaflight)"
 		(exclude_from_sim no)
-		(at 72.644 42.672 0)
+		(at 64.008 45.974 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2514,6 +2389,12 @@
 		(uuid "29465d54-f6a6-4003-987b-9a3364c40c87")
 	)
 	(junction
+		(at 347.98 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320f27fa-514b-4ff3-bd27-f2bce90d3590")
+	)
+	(junction
 		(at 349.25 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2532,16 +2413,10 @@
 		(uuid "50295686-bf67-4dca-b698-9e5c780802c0")
 	)
 	(junction
-		(at 347.98 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cb093ec-1aa3-4896-b23b-48aafc3f3bd1")
-	)
-	(junction
 		(at 345.44 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e5b3500-20d3-4b31-baca-6bf4b137c3a4")
+		(uuid "57be0472-cd05-4d5c-b1de-dce66748fb2b")
 	)
 	(junction
 		(at 86.36 59.69)
@@ -2691,16 +2566,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 130.81) (xy 350.52 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce8575b-21da-4b11-af4e-284a0c302023")
-	)
-	(wire
-		(pts
 			(xy 316.23 201.93) (xy 316.23 203.2)
 		)
 		(stroke
@@ -2708,6 +2573,16 @@
 			(type default)
 		)
 		(uuid "16b8ce42-61b8-4261-a7bb-08f840929ed0")
+	)
+	(wire
+		(pts
+			(xy 322.58 133.35) (xy 345.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1930750e-e586-458e-b4be-bd257f297542")
 	)
 	(wire
 		(pts
@@ -2728,16 +2603,6 @@
 			(type default)
 		)
 		(uuid "1d0038c9-01c1-478d-98ac-c06c9eb0bf2d")
-	)
-	(wire
-		(pts
-			(xy 350.52 125.73) (xy 339.09 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fdec437-822a-4008-869e-33df8d8c37e6")
 	)
 	(wire
 		(pts
@@ -2848,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "39b78d3e-af27-44d4-88ce-10d57a41371c")
+	)
+	(wire
+		(pts
+			(xy 350.52 130.81) (xy 339.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d17d657-637a-4e1b-9fab-aedc4da71508")
 	)
 	(wire
 		(pts
@@ -3001,16 +2876,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 133.35) (xy 345.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678723a9-0f0d-4813-baaf-6ffe9d6c85d1")
-	)
-	(wire
-		(pts
 			(xy 335.28 69.85) (xy 335.28 74.93)
 		)
 		(stroke
@@ -3091,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 135.89) (xy 347.98 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd920e2-d412-4594-8962-4af791bbade2")
-	)
-	(wire
-		(pts
 			(xy 350.52 184.15) (xy 349.25 184.15)
 		)
 		(stroke
@@ -3118,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "8cfdca88-bf33-43c7-b336-171062d5ea5a")
-	)
-	(wire
-		(pts
-			(xy 336.55 123.19) (xy 336.55 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6f9dd5-1824-4d0a-afa8-cce980e038fb")
 	)
 	(wire
 		(pts
@@ -3158,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "95133515-9710-4b57-8259-31e616d0a5ad")
-	)
-	(wire
-		(pts
-			(xy 350.52 123.19) (xy 336.55 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ebc346-4034-4a73-a1e5-20d64c993501")
 	)
 	(wire
 		(pts
@@ -3341,6 +3176,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 125.73) (xy 350.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace9d4c8-0643-4108-b48c-964b7ec89aad")
+	)
+	(wire
+		(pts
 			(xy 345.44 133.35) (xy 345.44 148.59)
 		)
 		(stroke
@@ -3361,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 125.73) (xy 339.09 120.65)
+			(xy 339.09 120.65) (xy 339.09 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3499,6 +3344,16 @@
 		)
 		(uuid "c3487dad-6886-4e26-9804-c9f3a1f577d8")
 	)
+	(wire
+		(pts
+			(xy 252.73 123.19) (xy 350.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3996a4b-779f-40fd-878a-7b493364f04d")
+	)
 	(bus
 		(pts
 			(xy 252.73 88.9) (xy 340.36 88.9)
@@ -3601,6 +3456,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 128.27) (xy 336.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53a2707-2c23-4e41-96f1-46d2f6b1751d")
+	)
+	(wire
+		(pts
 			(xy 66.04 87.63) (xy 171.45 87.63)
 		)
 		(stroke
@@ -3631,13 +3496,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 128.27) (xy 350.52 128.27)
+			(xy 322.58 135.89) (xy 347.98 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f183100c-639d-49ea-b35d-4f9ddaed792a")
+		(uuid "e851fa6c-6257-4af2-a531-33bdb51c322d")
+	)
+	(wire
+		(pts
+			(xy 336.55 128.27) (xy 350.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90a6b49-5cb0-41f1-b530-9d2dc852a2d1")
 	)
 	(wire
 		(pts
@@ -3737,6 +3612,267 @@
 				(type solid)
 			)
 		)
+		(column_widths 5.08 11.43)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Pin"
+				(exclude_from_sim no)
+				(at 367.03 177.8 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7806a5b4-1a73-48b2-beff-de513a3b00a4")
+			)
+			(table_cell "Signal"
+				(exclude_from_sim no)
+				(at 372.11 177.8 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "aa2cb5fc-a397-4837-9497-a325c7a741c8")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 367.03 180.34 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "5ada4cee-3d89-460e-ac76-a58d12c43ecd")
+			)
+			(table_cell "Vin"
+				(exclude_from_sim no)
+				(at 372.11 180.34 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6623c0bf-83e8-4200-bb09-858675d9ce9f")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 367.03 182.88 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "99291cea-541e-47bf-b574-9761fb124556")
+			)
+			(table_cell "PGND"
+				(exclude_from_sim no)
+				(at 372.11 182.88 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8f7a5222-7e59-454d-928b-1cc4ec2afb18")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 367.03 185.42 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "0265bcd9-c7f8-4609-b363-7f158ac0f9ae")
+			)
+			(table_cell "UART_TX"
+				(exclude_from_sim no)
+				(at 372.11 185.42 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "70eeb2e2-7817-422f-9704-c5b02a450141")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 367.03 187.96 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "2abe262e-251d-478a-8f9a-cb448b41bff7")
+			)
+			(table_cell "UART_RX"
+				(exclude_from_sim no)
+				(at 372.11 187.96 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "865e353f-64b4-43bd-94c6-59be9d65a312")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 367.03 190.5 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "6e76b75d-855b-484e-9d33-281e04f19553")
+			)
+			(table_cell "SGND"
+				(exclude_from_sim no)
+				(at 372.11 190.5 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f717f233-8edb-4729-90e0-db1c828ef2a4")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 367.03 193.04 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "6e8cbdd8-4458-43f7-8ec9-2b729d29dde6")
+			)
+			(table_cell "S.BUS_RX"
+				(exclude_from_sim no)
+				(at 372.11 193.04 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1dc4fa74-eec8-4048-8d92-42d14894ac0b")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
 		(column_widths 5.08 10.16)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(cells
@@ -3791,7 +3927,7 @@
 				)
 				(uuid "5ada4cee-3d89-460e-ac76-a58d12c43ecd")
 			)
-			(table_cell "GND"
+			(table_cell "UART_RX"
 				(exclude_from_sim no)
 				(at 372.11 121.92 0)
 				(size 10.16 2.54)
@@ -3825,7 +3961,7 @@
 				)
 				(uuid "99291cea-541e-47bf-b574-9761fb124556")
 			)
-			(table_cell "3V3"
+			(table_cell "UART_TX"
 				(exclude_from_sim no)
 				(at 372.11 124.46 0)
 				(size 10.16 2.54)
@@ -3859,7 +3995,7 @@
 				)
 				(uuid "0265bcd9-c7f8-4609-b363-7f158ac0f9ae")
 			)
-			(table_cell "UART_TX"
+			(table_cell "GND"
 				(exclude_from_sim no)
 				(at 372.11 127 0)
 				(size 10.16 2.54)
@@ -3893,7 +4029,7 @@
 				)
 				(uuid "2abe262e-251d-478a-8f9a-cb448b41bff7")
 			)
-			(table_cell "UART_RX"
+			(table_cell "3V3"
 				(exclude_from_sim no)
 				(at 372.11 129.54 0)
 				(size 10.16 2.54)
@@ -3927,7 +4063,7 @@
 				)
 				(uuid "6e76b75d-855b-484e-9d33-281e04f19553")
 			)
-			(table_cell "I2C_SDA"
+			(table_cell "I2C_SCL"
 				(exclude_from_sim no)
 				(at 372.11 132.08 0)
 				(size 10.16 2.54)
@@ -3961,7 +4097,7 @@
 				)
 				(uuid "6e8cbdd8-4458-43f7-8ec9-2b729d29dde6")
 			)
-			(table_cell "I2C_SCL"
+			(table_cell "I2C_SDA"
 				(exclude_from_sim no)
 				(at 372.11 134.62 0)
 				(size 10.16 2.54)
@@ -4309,267 +4445,6 @@
 			)
 		)
 	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 5.08 11.43)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(cells
-			(table_cell "Pin"
-				(exclude_from_sim no)
-				(at 367.03 177.8 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "7806a5b4-1a73-48b2-beff-de513a3b00a4")
-			)
-			(table_cell "Signal"
-				(exclude_from_sim no)
-				(at 372.11 177.8 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "aa2cb5fc-a397-4837-9497-a325c7a741c8")
-			)
-			(table_cell "1"
-				(exclude_from_sim no)
-				(at 367.03 180.34 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "5ada4cee-3d89-460e-ac76-a58d12c43ecd")
-			)
-			(table_cell "Vin"
-				(exclude_from_sim no)
-				(at 372.11 180.34 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "6623c0bf-83e8-4200-bb09-858675d9ce9f")
-			)
-			(table_cell "2"
-				(exclude_from_sim no)
-				(at 367.03 182.88 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "99291cea-541e-47bf-b574-9761fb124556")
-			)
-			(table_cell "PGND"
-				(exclude_from_sim no)
-				(at 372.11 182.88 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "8f7a5222-7e59-454d-928b-1cc4ec2afb18")
-			)
-			(table_cell "3"
-				(exclude_from_sim no)
-				(at 367.03 185.42 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "0265bcd9-c7f8-4609-b363-7f158ac0f9ae")
-			)
-			(table_cell "UART_RX"
-				(exclude_from_sim no)
-				(at 372.11 185.42 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "70eeb2e2-7817-422f-9704-c5b02a450141")
-			)
-			(table_cell "4"
-				(exclude_from_sim no)
-				(at 367.03 187.96 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "2abe262e-251d-478a-8f9a-cb448b41bff7")
-			)
-			(table_cell "UART_TX"
-				(exclude_from_sim no)
-				(at 372.11 187.96 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "865e353f-64b4-43bd-94c6-59be9d65a312")
-			)
-			(table_cell "5"
-				(exclude_from_sim no)
-				(at 367.03 190.5 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "6e76b75d-855b-484e-9d33-281e04f19553")
-			)
-			(table_cell "SGND"
-				(exclude_from_sim no)
-				(at 372.11 190.5 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f717f233-8edb-4729-90e0-db1c828ef2a4")
-			)
-			(table_cell "6"
-				(exclude_from_sim no)
-				(at 367.03 193.04 0)
-				(size 5.08 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-				(uuid "6e8cbdd8-4458-43f7-8ec9-2b729d29dde6")
-			)
-			(table_cell "S.BUS_TX"
-				(exclude_from_sim no)
-				(at 372.11 193.04 0)
-				(size 11.43 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1dc4fa74-eec8-4048-8d92-42d14894ac0b")
-			)
-		)
-	)
 	(label "+9V"
 		(at 299.72 181.61 0)
 		(effects
@@ -4581,7 +4456,7 @@
 		(uuid "0077a1dc-f39c-4e22-8b7a-a9efc2379246")
 	)
 	(label "UART5_TX"
-		(at 322.58 130.81 0)
+		(at 322.58 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4711,7 +4586,7 @@
 		(uuid "6f95d761-f96c-4ce0-900d-1c1062cf84e8")
 	)
 	(label "UART5_RX"
-		(at 322.58 128.27 0)
+		(at 322.58 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,73 +6250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 349.25 180.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98b1995c-3159-4974-a796-f1231dc4ec04")
-		(property "Reference" "#PWR021"
-			(at 349.25 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 349.25 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 349.25 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3a07b13-ca68-4175-9db6-8f77068b881f")
-		)
-		(instances
-			(project "FCU3"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 207.01 231.14 0)
 		(mirror y)
@@ -7118,6 +6926,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 349.25 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6b903a7-51fa-49a3-9d13-be405025be65")
+		(property "Reference" "#PWR056"
+			(at 349.25 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 346.964 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 349.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e2cc0e6-1399-45df-a374-6b4f3d8cea20")
+		)
+		(instances
+			(project "FCU3"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 316.23 217.17 0)
 		(unit 1)
@@ -7592,7 +7466,7 @@
 			)
 		)
 		(pin "UART5_RX" input
-			(at 252.73 130.81 0)
+			(at 252.73 123.19 0)
 			(uuid "a12f3bc0-b96c-4f08-916d-8f2c6ae254e4")
 			(effects
 				(font
@@ -7602,7 +7476,7 @@
 			)
 		)
 		(pin "UART5_TX" input
-			(at 252.73 128.27 0)
+			(at 252.73 125.73 0)
 			(uuid "0bd6a165-7ab7-4037-90ba-0923352a2afc")
 			(effects
 				(font
