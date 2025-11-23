@@ -1,11 +1,11 @@
-Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,MPN,Supplier Part Number
 1,2,C15 C16,27pF,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,"Unpolarized capacitor, small symbol",,,
 2,9,C3 C4 C5 C6 C12 C13 C14 C17 C18,100nF,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,"Unpolarized capacitor, small symbol",,,
 3,2,C1 C2,1uF,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
 4,3,C7 C8 C9,2.2uF,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,"Unpolarized capacitor, small symbol",,,
 5,7,C10 C11 C19 C20 C21 C22 C23,10uF,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,"Unpolarized capacitor, small symbol",,,
 6,2,D1 D2,SS14,https://www.vishay.com/docs/88746/ss12.pdf,D_SMA,"40V 1A Schottky Diode, SMA",,,
-7,5,J1 J2 J4 J5 J6,SM06B-SRSS-TB_LF__SN_,,JST_SM06B-SRSS-TB_LF__SN_,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",JST Same Sky,,
+7,4,J1 J2 J4 J6,SM06B-SRSS-TB_LF__SN_,,JST_SM06B-SRSS-TB_LF__SN_,,JST Same Sky,,
 8,1,PS1,TPSM84338RCJR,,TPSM84338RCJR,,Texas Instruments,,
 9,1,Q2,SS8050,http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf,SOT-23,"General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23",,,
 10,1,R4,1k,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,"Resistor, small symbol",,,
