@@ -563,7 +563,7 @@ definitions:
   COMPANY: Kaldstrand Electronics
   DESIGNER: Kaldstrand
 
-  LOGO: '\Logos\KSE_logo.png'
+  LOGO: 'Logos/KSE_logo.png'
   GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
 
   # Preflight ==================================================================
