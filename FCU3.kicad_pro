@@ -1039,7 +1039,7 @@
     "DESIGNER": "Kaldstrand",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "f26cd56",
-    "GIT_HASH_SCH": "389e887",
+    "GIT_HASH_SCH": "70c4a9a",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "Flight Controller 3",
     "RELEASE_BODY_1.0.0": "",
@@ -1092,8 +1092,8 @@
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "Inertial Measurement Unit",
     "SHEET_NAME_6": "Power",
-    "SHEET_NAME_7": "Power - Sequencing",
-    "SHEET_NAME_8": "Revision History",
+    "SHEET_NAME_7": "Revision History",
+    "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
     "VARIANT": "DRAFT"
   }

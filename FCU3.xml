@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">Kaldstrand</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">f26cd56</textvar>
-    <textvar name="GIT_HASH_SCH">389e887</textvar>
+    <textvar name="GIT_HASH_SCH">70c4a9a</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -63,8 +63,8 @@
     <textvar name="SHEET_NAME_40">......................................</textvar>
     <textvar name="SHEET_NAME_5">Inertial Measurement Unit</textvar>
     <textvar name="SHEET_NAME_6">Power</textvar>
-    <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
-    <textvar name="SHEET_NAME_8">Revision History</textvar>
+    <textvar name="SHEET_NAME_7">Revision History</textvar>
+    <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -175,25 +175,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
-      <title_block>
-        <title>Power - Sequencing</title>
-        <company>Kaldstrand Electronics</company>
-        <rev>+ (Unreleased)</rev>
-        <date>Date2</date>
-        <source>Power - Sequencing.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="8" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
         <company>Kaldstrand Electronics</company>
@@ -1872,7 +1854,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="S1" pin="2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="VDDIO" pintype="power_in"/>
@@ -2004,12 +1986,12 @@
       <node ref="U5" pin="14" pinfunction="PA0" pintype="bidirectional"/>
     </net>
     <net code="34" name="/Project Architecture/UART5_RX" class="Default">
-      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="U5" pin="53" pinfunction="PC12" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="54" pinfunction="PD2" pintype="bidirectional"/>
     </net>
     <net code="35" name="/Project Architecture/UART5_TX" class="Default">
-      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="U5" pin="54" pinfunction="PD2" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="53" pinfunction="PC12" pintype="bidirectional"/>
     </net>
     <net code="36" name="/Project Architecture/USB_+DATA" class="Default">
       <node ref="J6" pin="A6" pinfunction="DP1" pintype="passive"/>
@@ -2056,7 +2038,7 @@
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J2" pin="S2" pinfunction="SHIELD" pintype="passive"/>
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
