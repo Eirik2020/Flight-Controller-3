@@ -573,7 +573,7 @@ definitions:
 
   # BoM ========================================================================
 
-  MPN_FIELD: 'Manufacturer Part Number'
+  MPN_FIELD: 'MPN'
   MAN_FIELD: 'Manufacturer'
 
   # Drill table and drill map parameters =======================================
