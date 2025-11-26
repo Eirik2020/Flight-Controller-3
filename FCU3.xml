@@ -3,7 +3,7 @@
   <design>
     <source>/github/workspace/FCU3.kicad_sch</source>
     <date>Date1</date>
-    <tool>Eeschema 9.0.1+1</tool>
+    <tool>Eeschema 9.0.6+1</tool>
     <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">ae2d6ef</textvar>
+    <textvar name="GIT_HASH_PCB">1d36d5d</textvar>
     <textvar name="GIT_HASH_SCH">70c4a9a</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">25-Nov-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-11-25</textvar>
+    <textvar name="RELEASE_DATE">26-Nov-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-11-26</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -419,10 +419,11 @@
     <comp ref="R1">
       <value>75k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -436,10 +437,11 @@
     <comp ref="R2">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -453,10 +455,11 @@
     <comp ref="R3">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -470,10 +473,11 @@
     <comp ref="R4">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -487,10 +491,11 @@
     <comp ref="R7">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -504,10 +509,11 @@
     <comp ref="R9">
       <value>5.1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -521,10 +527,11 @@
     <comp ref="R10">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -538,10 +545,11 @@
     <comp ref="R15">
       <value>5.1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -555,10 +563,11 @@
     <comp ref="C3">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -572,10 +581,11 @@
     <comp ref="C4">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -589,10 +599,11 @@
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -606,10 +617,11 @@
     <comp ref="C6">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -623,10 +635,11 @@
     <comp ref="C7">
       <value>2.2uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -640,10 +653,11 @@
     <comp ref="C8">
       <value>2.2uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -657,10 +671,11 @@
     <comp ref="C9">
       <value>2.2uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -674,10 +689,11 @@
     <comp ref="C10">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -691,10 +707,11 @@
     <comp ref="C12">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -708,10 +725,11 @@
     <comp ref="C15">
       <value>27pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -725,10 +743,11 @@
     <comp ref="C16">
       <value>27pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -742,10 +761,11 @@
     <comp ref="R8">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -817,10 +837,11 @@
     <comp ref="Y1">
       <value>LFXTAL055207Bulk</value>
       <footprint>KSE_passive:Crystal_HC49-4H_Vertical</footprint>
+      <datasheet>~</datasheet>
       <description>Two pin crystal</description>
       <fields>
         <field name="Footprint">KSE_passive:Crystal_HC49-4H_Vertical</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Two pin crystal</field>
       </fields>
       <libsource lib="KSE_passive" part="crystal_8MHz_THT_LFXTAL055207Bulk" description="Two pin crystal"/>
@@ -834,10 +855,11 @@
     <comp ref="C13">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -851,10 +873,11 @@
     <comp ref="C14">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -868,10 +891,11 @@
     <comp ref="C17">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -989,10 +1013,11 @@
     <comp ref="C1">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1006,10 +1031,11 @@
     <comp ref="C2">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1023,10 +1049,11 @@
     <comp ref="C11">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1040,10 +1067,11 @@
     <comp ref="C18">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1057,10 +1085,11 @@
     <comp ref="C19">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1074,10 +1103,11 @@
     <comp ref="C20">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1091,10 +1121,11 @@
     <comp ref="C21">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1108,10 +1139,11 @@
     <comp ref="C22">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1125,10 +1157,11 @@
     <comp ref="C23">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1178,10 +1211,11 @@
     <comp ref="H1">
       <value>MountingHole_Pad_MP</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
       <description>Mounting Hole with connection as pad named MP</description>
       <fields>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole with connection as pad named MP</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
@@ -1196,10 +1230,11 @@
     <comp ref="H2">
       <value>MountingHole_Pad_MP</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
       <description>Mounting Hole with connection as pad named MP</description>
       <fields>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole with connection as pad named MP</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
@@ -1214,10 +1249,11 @@
     <comp ref="H3">
       <value>MountingHole_Pad_MP</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
       <description>Mounting Hole with connection as pad named MP</description>
       <fields>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole with connection as pad named MP</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
@@ -1232,10 +1268,11 @@
     <comp ref="H4">
       <value>MountingHole_Pad_MP</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
       <description>Mounting Hole with connection as pad named MP</description>
       <fields>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole with connection as pad named MP</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
@@ -1250,10 +1287,11 @@
     <comp ref="JP3">
       <value>SolderJumper_2_Bridged</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
@@ -1268,10 +1306,11 @@
     <comp ref="JP4">
       <value>SolderJumper_2_Bridged</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
@@ -1324,10 +1363,11 @@
     <comp ref="R5">
       <value>18k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1341,10 +1381,11 @@
     <comp ref="R6">
       <value>140k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1358,10 +1399,11 @@
     <comp ref="R11">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1986,111 +2028,101 @@
     <net code="13" name="/Project Architecture/I2C1_SCL" class="Default">
       <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="61" pinfunction="PB8" pintype="bidirectional"/>
     </net>
     <net code="14" name="/Project Architecture/I2C1_SDA" class="Default">
       <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="62" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Project Architecture/Inertial Measurement Unit/SPI1_SCK" class="Default">
-      <node ref="U1" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
-    </net>
-    <net code="16" name="/Project Architecture/Inertial Measurement Unit/SPI1_SDI" class="Default">
-      <node ref="U1" pin="9" pinfunction="AD0/SDO" pintype="output"/>
-    </net>
-    <net code="17" name="/Project Architecture/Inertial Measurement Unit/SPI1_SDO" class="Default">
-      <node ref="U1" pin="24" pinfunction="SDA/SDI" pintype="bidirectional"/>
-    </net>
-    <net code="19" name="/Project Architecture/Microcontroller/CLK_OUT" class="Default">
+    <net code="15" name="/Project Architecture/Microcontroller/CLK_OUT" class="Default">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="PH0" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="20" name="/Project Architecture/Microcontroller/DFU_Enable" class="Default">
+    <net code="16" name="/Project Architecture/Microcontroller/DFU_Enable" class="Default">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="S1" pin="1" pintype="passive"/>
       <node ref="U5" pin="60" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="21" name="/Project Architecture/Microcontroller/I2C1_SCL" class="Default">
-      <node ref="U5" pin="61" pinfunction="PB8" pintype="bidirectional"/>
-    </net>
-    <net code="22" name="/Project Architecture/Microcontroller/I2C1_SDA" class="Default">
-      <node ref="U5" pin="62" pinfunction="PB9" pintype="bidirectional"/>
-    </net>
-    <net code="23" name="/Project Architecture/Microcontroller/LED0" class="Default">
+    <net code="17" name="/Project Architecture/Microcontroller/LED0" class="Default">
       <node ref="U5" pin="46" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/Project Architecture/Microcontroller/LED1" class="Default">
+    <net code="18" name="/Project Architecture/Microcontroller/LED1" class="Default">
       <node ref="U5" pin="49" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="25" name="/Project Architecture/Microcontroller/SPI1_SCK" class="Default">
-      <node ref="U5" pin="21" pinfunction="PA5" pintype="bidirectional"/>
-    </net>
-    <net code="26" name="/Project Architecture/Microcontroller/SPI1_SDI" class="Default">
-      <node ref="U5" pin="22" pinfunction="PA6" pintype="bidirectional"/>
-    </net>
-    <net code="27" name="/Project Architecture/Microcontroller/SPI1_SDO" class="Default">
-      <node ref="U5" pin="23" pinfunction="PA7" pintype="bidirectional"/>
-    </net>
-    <net code="29" name="/Project Architecture/SBUS_TX" class="Default">
+    <net code="19" name="/Project Architecture/SBUS_TX" class="Default">
       <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="/Project Architecture/UART1_RX" class="Default">
+    <net code="20" name="/Project Architecture/SPI1_SCK" class="Default">
+      <node ref="U1" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U5" pin="21" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Project Architecture/SPI1_SDI" class="Default">
+      <node ref="U1" pin="9" pinfunction="AD0/SDO" pintype="output"/>
+      <node ref="U5" pin="22" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Project Architecture/SPI1_SDO" class="Default">
+      <node ref="U1" pin="24" pinfunction="SDA/SDI" pintype="bidirectional"/>
+      <node ref="U5" pin="23" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/Project Architecture/UART1_RX" class="Default">
       <node ref="J4" pin="8" pintype="passive"/>
       <node ref="U5" pin="43" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/Project Architecture/UART2_RX" class="Default">
+    <net code="24" name="/Project Architecture/UART2_RX" class="Default">
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U5" pin="17" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Project Architecture/UART4_RX" class="Default">
+    <net code="25" name="/Project Architecture/UART4_RX" class="Default">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U5" pin="15" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/Project Architecture/UART4_TX" class="Default">
+    <net code="26" name="/Project Architecture/UART4_TX" class="Default">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="14" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/Project Architecture/UART5_RX" class="Default">
+    <net code="27" name="/Project Architecture/UART5_RX" class="Default">
       <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="54" pinfunction="PD2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/Project Architecture/UART5_TX" class="Default">
+    <net code="28" name="/Project Architecture/UART5_TX" class="Default">
       <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="53" pinfunction="PC12" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/Project Architecture/USB_+DATA" class="Default">
+    <net code="29" name="/Project Architecture/USB_+DATA" class="Default">
       <node ref="J6" pin="A6" pinfunction="DP1" pintype="passive"/>
       <node ref="J6" pin="B6" pinfunction="DP2" pintype="passive"/>
       <node ref="U5" pin="44" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/Project Architecture/USB_-DATA" class="Default">
+    <net code="30" name="/Project Architecture/USB_-DATA" class="Default">
       <node ref="J6" pin="A7" pinfunction="DN1" pintype="passive"/>
       <node ref="J6" pin="B7" pinfunction="DN2" pintype="passive"/>
       <node ref="U5" pin="45" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="38" name="/Project Architecture/USB_CC1" class="Default">
+    <net code="31" name="/Project Architecture/USB_CC1" class="Default">
       <node ref="J6" pin="A5" pinfunction="CC1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="/Project Architecture/USB_CC2" class="Default">
+    <net code="32" name="/Project Architecture/USB_CC2" class="Default">
       <node ref="J6" pin="B5" pinfunction="CC2" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="/Project Architecture/V_USB" class="Default">
+    <net code="33" name="/Project Architecture/V_USB" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="A4_B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J6" pin="B4_A9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="41" name="AGND" class="Default">
+    <net code="34" name="AGND" class="Default">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U5" pin="12" pinfunction="VSSA" pintype="power_in"/>
     </net>
-    <net code="42" name="DGND" class="Default">
+    <net code="35" name="DGND" class="Default">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -2120,38 +2152,38 @@
       <node ref="U5" pin="28" pinfunction="PB2" pintype="bidirectional"/>
       <node ref="U5" pin="63" pinfunction="VSS" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(D1-K)" class="Default">
+    <net code="36" name="Net-(D1-K)" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="44" name="Net-(PS1-FB)" class="Default">
+    <net code="37" name="Net-(PS1-FB)" class="Default">
       <node ref="PS1" pin="2" pinfunction="FB" pintype="input"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(PS1-MODE)" class="Default">
+    <net code="38" name="Net-(PS1-MODE)" class="Default">
       <node ref="PS1" pin="7" pinfunction="MODE" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(Q2-B)" class="Default">
+    <net code="39" name="Net-(Q2-B)" class="Default">
       <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(U1-REGOUT)" class="Default">
+    <net code="40" name="Net-(U1-REGOUT)" class="Default">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="REGOUT" pintype="output"/>
     </net>
-    <net code="48" name="Net-(U5-VCAP_1)" class="Default">
+    <net code="41" name="Net-(U5-VCAP_1)" class="Default">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U5" pin="31" pinfunction="VCAP_1" pintype="power_out"/>
     </net>
-    <net code="49" name="Net-(U5-VCAP_2)" class="Default">
+    <net code="42" name="Net-(U5-VCAP_2)" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="U5" pin="47" pinfunction="VCAP_2" pintype="power_out"/>
     </net>
-    <net code="50" name="PGND" class="Default">
+    <net code="43" name="PGND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
@@ -2182,115 +2214,115 @@
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="51" name="unconnected-(J6-SBU1-PadA8)" class="Default">
+    <net code="44" name="unconnected-(J6-SBU1-PadA8)" class="Default">
       <node ref="J6" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(J6-SBU2-PadB8)" class="Default">
+    <net code="45" name="unconnected-(J6-SBU2-PadB8)" class="Default">
       <node ref="J6" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(PS1-EN-Pad1)" class="Default">
+    <net code="46" name="unconnected-(PS1-EN-Pad1)" class="Default">
       <node ref="PS1" pin="1" pinfunction="EN" pintype="input+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(PS1-SS/PG-Pad8)" class="Default">
+    <net code="47" name="unconnected-(PS1-SS/PG-Pad8)" class="Default">
       <node ref="PS1" pin="8" pinfunction="SS/PG" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(PS1-SW-Pad5)" class="Default">
+    <net code="48" name="unconnected-(PS1-SW-Pad5)" class="Default">
       <node ref="PS1" pin="5" pinfunction="SW" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U1-AUX_CL-Pad7)" class="Default">
+    <net code="49" name="unconnected-(U1-AUX_CL-Pad7)" class="Default">
       <node ref="U1" pin="7" pinfunction="AUX_CL" pintype="input+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U1-AUX_DA-Pad21)" class="Default">
+    <net code="50" name="unconnected-(U1-AUX_DA-Pad21)" class="Default">
       <node ref="U1" pin="21" pinfunction="AUX_DA" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-RESV_1-Pad19)" class="Default">
+    <net code="51" name="unconnected-(U1-RESV_1-Pad19)" class="Default">
       <node ref="U1" pin="19" pinfunction="RESV_1" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-RESV_2-Pad20)" class="Default">
+    <net code="52" name="unconnected-(U1-RESV_2-Pad20)" class="Default">
       <node ref="U1" pin="20" pinfunction="RESV_2" pintype="passive+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U5-NRST-Pad7)" class="Default">
+    <net code="53" name="unconnected-(U5-NRST-Pad7)" class="Default">
       <node ref="U5" pin="7" pinfunction="NRST" pintype="input+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U5-PA2-Pad16)" class="Default">
+    <net code="54" name="unconnected-(U5-PA2-Pad16)" class="Default">
       <node ref="U5" pin="16" pinfunction="PA2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U5-PA9-Pad42)" class="Default">
+    <net code="55" name="unconnected-(U5-PA9-Pad42)" class="Default">
       <node ref="U5" pin="42" pinfunction="PA9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U5-PA15-Pad50)" class="Default">
+    <net code="56" name="unconnected-(U5-PA15-Pad50)" class="Default">
       <node ref="U5" pin="50" pinfunction="PA15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U5-PB0-Pad26)" class="Default">
+    <net code="57" name="unconnected-(U5-PB0-Pad26)" class="Default">
       <node ref="U5" pin="26" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U5-PB1-Pad27)" class="Default">
+    <net code="58" name="unconnected-(U5-PB1-Pad27)" class="Default">
       <node ref="U5" pin="27" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U5-PB3-Pad55)" class="Default">
+    <net code="59" name="unconnected-(U5-PB3-Pad55)" class="Default">
       <node ref="U5" pin="55" pinfunction="PB3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U5-PB4-Pad56)" class="Default">
+    <net code="60" name="unconnected-(U5-PB4-Pad56)" class="Default">
       <node ref="U5" pin="56" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U5-PB5-Pad57)" class="Default">
+    <net code="61" name="unconnected-(U5-PB5-Pad57)" class="Default">
       <node ref="U5" pin="57" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U5-PB6-Pad58)" class="Default">
+    <net code="62" name="unconnected-(U5-PB6-Pad58)" class="Default">
       <node ref="U5" pin="58" pinfunction="PB6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U5-PB7-Pad59)" class="Default">
+    <net code="63" name="unconnected-(U5-PB7-Pad59)" class="Default">
       <node ref="U5" pin="59" pinfunction="PB7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U5-PB10-Pad29)" class="Default">
+    <net code="64" name="unconnected-(U5-PB10-Pad29)" class="Default">
       <node ref="U5" pin="29" pinfunction="PB10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U5-PB11-Pad30)" class="Default">
+    <net code="65" name="unconnected-(U5-PB11-Pad30)" class="Default">
       <node ref="U5" pin="30" pinfunction="PB11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U5-PB12-Pad33)" class="Default">
+    <net code="66" name="unconnected-(U5-PB12-Pad33)" class="Default">
       <node ref="U5" pin="33" pinfunction="PB12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U5-PB13-Pad34)" class="Default">
+    <net code="67" name="unconnected-(U5-PB13-Pad34)" class="Default">
       <node ref="U5" pin="34" pinfunction="PB13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U5-PB14-Pad35)" class="Default">
+    <net code="68" name="unconnected-(U5-PB14-Pad35)" class="Default">
       <node ref="U5" pin="35" pinfunction="PB14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U5-PC2-Pad10)" class="Default">
+    <net code="69" name="unconnected-(U5-PC2-Pad10)" class="Default">
       <node ref="U5" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U5-PC3-Pad11)" class="Default">
+    <net code="70" name="unconnected-(U5-PC3-Pad11)" class="Default">
       <node ref="U5" pin="11" pinfunction="PC3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U5-PC5-Pad25)" class="Default">
+    <net code="71" name="unconnected-(U5-PC5-Pad25)" class="Default">
       <node ref="U5" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U5-PC6-Pad37)" class="Default">
+    <net code="72" name="unconnected-(U5-PC6-Pad37)" class="Default">
       <node ref="U5" pin="37" pinfunction="PC6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U5-PC7-Pad38)" class="Default">
+    <net code="73" name="unconnected-(U5-PC7-Pad38)" class="Default">
       <node ref="U5" pin="38" pinfunction="PC7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U5-PC10-Pad51)" class="Default">
+    <net code="74" name="unconnected-(U5-PC10-Pad51)" class="Default">
       <node ref="U5" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U5-PC11-Pad52)" class="Default">
+    <net code="75" name="unconnected-(U5-PC11-Pad52)" class="Default">
       <node ref="U5" pin="52" pinfunction="PC11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U5-PC13-Pad2)" class="Default">
+    <net code="76" name="unconnected-(U5-PC13-Pad2)" class="Default">
       <node ref="U5" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U5-PC14-Pad3)" class="Default">
+    <net code="77" name="unconnected-(U5-PC14-Pad3)" class="Default">
       <node ref="U5" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U5-PC15-Pad4)" class="Default">
+    <net code="78" name="unconnected-(U5-PC15-Pad4)" class="Default">
       <node ref="U5" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U5-PH1-Pad6)" class="Default">
+    <net code="79" name="unconnected-(U5-PH1-Pad6)" class="Default">
       <node ref="U5" pin="6" pinfunction="PH1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U5-VBAT-Pad1)" class="Default">
+    <net code="80" name="unconnected-(U5-VBAT-Pad1)" class="Default">
       <node ref="U5" pin="1" pinfunction="VBAT" pintype="power_in+no_connect"/>
     </net>
   </nets>
