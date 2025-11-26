@@ -1235,33 +1235,6 @@
 		(at 125.73 85.09)
 		(uuid "f1a3739f-26dd-485a-8441-ed7fcda66679")
 	)
-	(bus_entry
-		(at 91.44 77.47)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a9b87e4-2419-4a7d-8ccb-b90c87d02247")
-	)
-	(bus_entry
-		(at 91.44 74.93)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cfa24b3-3d21-47b2-94a2-d10c2dcaaa42")
-	)
-	(bus_entry
-		(at 91.44 80.01)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6d23c9-49da-4b39-b28a-0cc285298511")
-	)
 	(wire
 		(pts
 			(xy 186.69 85.09) (xy 186.69 92.71)
@@ -1332,16 +1305,6 @@
 		)
 		(uuid "12080cfc-21fb-47c6-82c6-df313aa0aac6")
 	)
-	(bus
-		(pts
-			(xy 91.44 77.47) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ccbf7dc-8652-455e-8880-308c8e226e82")
-	)
 	(wire
 		(pts
 			(xy 186.69 64.77) (xy 186.69 63.5)
@@ -1354,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 125.73 74.93)
+			(xy 91.44 74.93) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1392,16 +1355,6 @@
 		)
 		(uuid "32757de4-4c8f-4b05-8ced-8be5e24da336")
 	)
-	(bus
-		(pts
-			(xy 85.09 74.93) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b30b377-d3f8-450b-9cb0-e67bad160180")
-	)
 	(wire
 		(pts
 			(xy 184.15 66.04) (xy 184.15 64.77)
@@ -1414,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 105.41) (xy 170.18 105.41)
+			(xy 91.44 105.41) (xy 170.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 125.73 80.01)
+			(xy 91.44 80.01) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 118.11 82.55)
+			(xy 91.44 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1624,23 +1577,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 125.73 77.47)
+			(xy 91.44 77.47) (xy 125.73 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ebbb598d-cb44-4b57-96c7-032d2184ecba")
-	)
-	(bus
-		(pts
-			(xy 91.44 82.55) (xy 91.44 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f610e15f-1773-4943-b887-703318b74db7")
 	)
 	(wire
 		(pts
@@ -1652,49 +1595,9 @@
 		)
 		(uuid "f9b25822-82b4-4635-9680-e1e57f250a03")
 	)
-	(bus
-		(pts
-			(xy 91.44 80.01) (xy 91.44 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd20caf2-90c4-49de-a276-5da9e535c00b")
-	)
-	(label "SPI1_SDI"
-		(at 93.98 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0317d8fa-d1e3-43a3-896b-53444f39d4ec")
-	)
-	(label "SPI1_SCK"
-		(at 93.98 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ee5c7c3-74d2-4577-a614-91df28e24283")
-	)
-	(label "SPI1_SDO"
-		(at 93.98 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccc59cca-460a-477f-a212-6585508653b9")
-	)
 	(hierarchical_label "IMU_EXTI"
 		(shape input)
-		(at 114.3 105.41 180)
+		(at 91.44 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1703,9 +1606,31 @@
 		)
 		(uuid "206149b5-4260-4ab0-88be-f902dd7ee6d6")
 	)
+	(hierarchical_label "IMU_SPI_SDI"
+		(shape input)
+		(at 91.44 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74f85e01-f668-4b21-8a8e-06201e6205a9")
+	)
+	(hierarchical_label "IMU_SPI_SCK"
+		(shape input)
+		(at 91.44 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "834d46c0-5f5f-4935-8d8a-b55751fedd85")
+	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 114.3 74.93 180)
+		(at 91.44 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1713,17 +1638,6 @@
 			(justify right)
 		)
 		(uuid "919dae18-61f7-4c4b-8985-bf33336ef826")
-	)
-	(hierarchical_label "{SPI1}"
-		(shape bidirectional)
-		(at 85.09 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9358a571-f276-4db1-bda1-9d7ef597ee93")
 	)
 	(hierarchical_label "DGND"
 		(shape input)
@@ -1735,6 +1649,17 @@
 			(justify left)
 		)
 		(uuid "97e4999c-2cdd-4e80-b7a8-91a669fed0eb")
+	)
+	(hierarchical_label "IMU_SPI_SDO"
+		(shape input)
+		(at 91.44 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7c58bd2-328b-49b3-a3f6-0900445d3c39")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
