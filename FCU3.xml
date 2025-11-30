@@ -113,7 +113,7 @@
     <textvar name="SHEET_NAME_27">......................................</textvar>
     <textvar name="SHEET_NAME_28">......................................</textvar>
     <textvar name="SHEET_NAME_29">......................................</textvar>
-    <textvar name="SHEET_NAME_3">(lib_symbols</textvar>
+    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
     <textvar name="SHEET_NAME_30">......................................</textvar>
     <textvar name="SHEET_NAME_31">......................................</textvar>
     <textvar name="SHEET_NAME_32">......................................</textvar>
@@ -128,8 +128,8 @@
     <textvar name="SHEET_NAME_40">......................................</textvar>
     <textvar name="SHEET_NAME_5">Inertial Measurement Unit</textvar>
     <textvar name="SHEET_NAME_6">Power</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_7">10–26V to 9V2A Step-Down Converter</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -278,6 +278,82 @@
     </sheet>
   </design>
   <components>
+    <comp ref="H1">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection as pad named MP</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection as pad named MP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>70db670f-fc3f-4ab5-b398-68621a1b74fa</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection as pad named MP</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection as pad named MP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>37515296-6f19-495e-a243-189c51374e77</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection as pad named MP</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection as pad named MP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>9a21a1a6-6de6-4e94-8345-3f073c336783</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad_MP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection as pad named MP</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection as pad named MP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>83febdc3-42e1-4406-815f-fb440abf8ac0</tstamps>
+    </comp>
     <comp ref="J1">
       <value>SM06B-SRSS-TB_LF__SN_</value>
       <footprint>KSE_connector:JST_SM06B-SRSS-TB_LF__SN_</footprint>
@@ -415,6 +491,25 @@
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>7d46f760-be2c-40ef-b646-474470720c9a</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ebe8bb86-aa7e-45ce-a6d6-58cd0bf71961</tstamps>
     </comp>
     <comp ref="Q2">
       <value>SS8050</value>
@@ -1030,170 +1125,99 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Manufacturer">Murata Electronics </field>
+        <field name="MPN">GRM155R61E105MA12D </field>
+        <field name="V_MAX"/>
+        <field name="P_MAX"/>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="KSE_Capacitors" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics "/>
+      <property name="MPN" value="GRM155R61E105MA12D "/>
+      <property name="V_MAX" value=""/>
+      <property name="P_MAX" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>b0eff91d-35dd-48af-87ae-f9a127f42f3e</tstamps>
+      <tstamps>e2502050-132b-4fdd-8d87-c9e3171ea541</tstamps>
     </comp>
-    <comp ref="C2">
+    <comp ref="C20">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Manufacturer">Murata Electronics </field>
+        <field name="MPN">GRM155R61E105MA12D </field>
+        <field name="V_MAX"/>
+        <field name="P_MAX"/>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="KSE_Capacitors" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics "/>
+      <property name="MPN" value="GRM155R61E105MA12D "/>
+      <property name="V_MAX" value=""/>
+      <property name="P_MAX" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>f6a0ce30-21fe-46dc-b1a9-5c65ee521ed9</tstamps>
+      <tstamps>1360e83a-e97c-4960-a75b-476584e1f7a7</tstamps>
     </comp>
     <comp ref="D1">
-      <value>SS14</value>
+      <value>SS14-M3/5AT</value>
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>https://www.vishay.com/docs/88746/ss12.pdf</datasheet>
-      <description>40V 1A Schottky Diode, SMA</description>
+      <description>Schottky diode</description>
       <fields>
+        <field name="Manufacturer">Vishay General Semiconductor</field>
+        <field name="MPN">SS14-M3/5AT</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.vishay.com/docs/88746/ss12.pdf</field>
-        <field name="Description">40V 1A Schottky Diode, SMA</field>
+        <field name="Description">Schottky diode</field>
       </fields>
-      <libsource lib="Diode" part="SS14" description="40V 1A Schottky Diode, SMA"/>
+      <libsource lib="KSE_Diodes" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="Vishay General Semiconductor"/>
+      <property name="MPN" value="SS14-M3/5AT"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
-      <property name="ki_fp_filters" value="D*SMA*"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>36d9b5b5-7859-4d09-8ae8-ff63a8c70f74</tstamps>
+      <tstamps>9ed386d7-20c0-4705-9f2d-feb359dbee44</tstamps>
     </comp>
-    <comp ref="D2">
-      <value>SS14</value>
+    <comp ref="D3">
+      <value>SS14-M3/5AT</value>
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>https://www.vishay.com/docs/88746/ss12.pdf</datasheet>
-      <description>40V 1A Schottky Diode, SMA</description>
+      <description>Schottky diode</description>
       <fields>
+        <field name="Manufacturer">Vishay General Semiconductor</field>
+        <field name="MPN">SS14-M3/5AT</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.vishay.com/docs/88746/ss12.pdf</field>
-        <field name="Description">40V 1A Schottky Diode, SMA</field>
+        <field name="Description">Schottky diode</field>
       </fields>
-      <libsource lib="Diode" part="SS14" description="40V 1A Schottky Diode, SMA"/>
+      <libsource lib="KSE_Diodes" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="Vishay General Semiconductor"/>
+      <property name="MPN" value="SS14-M3/5AT"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
-      <property name="ki_fp_filters" value="D*SMA*"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>f60daf7f-0230-41d6-8c93-86edd923197a</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>70db670f-fc3f-4ab5-b398-68621a1b74fa</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>37515296-6f19-495e-a243-189c51374e77</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>9a21a1a6-6de6-4e94-8345-3f073c336783</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>83febdc3-42e1-4406-815f-fb440abf8ac0</tstamps>
-    </comp>
-    <comp ref="JP3">
-      <value>SolderJumper_2_Bridged</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Solder Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="solder jumper SPST"/>
-      <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
-      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>ebe8bb86-aa7e-45ce-a6d6-58cd0bf71961</tstamps>
+      <tstamps>ac2eb7a6-3fe3-44c8-a4a3-e0b02ef9cd25</tstamps>
     </comp>
     <comp ref="JP4">
       <value>SolderJumper_2_Bridged</value>
@@ -1214,23 +1238,25 @@
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
       <tstamps>cdf49b2d-8694-45c4-a18b-337db3396d7b</tstamps>
     </comp>
-    <comp ref="U3">
-      <value>MCP1700x-330xxTT</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</datasheet>
-      <description>250mA Low Quiscent Current LDO, 3.3V output, SOT-23</description>
+    <comp ref="U2">
+      <value>NCV4274AST33T3G</value>
+      <footprint>KSE_DCDC:SOT230P700X175-4N</footprint>
+      <datasheet>https://no.mouser.com/datasheet/3/101/1/NCV4274C-D.PDF</datasheet>
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output  400mA SOT-223 (TO-261)</description>
       <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</field>
-        <field name="Description">250mA Low Quiscent Current LDO, 3.3V output, SOT-23</field>
+        <field name="Manufacturer">onsemi </field>
+        <field name="MPN">NCV4274CST33T3G </field>
+        <field name="Footprint">KSE_DCDC:SOT230P700X175-4N</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/101/1/NCV4274C-D.PDF</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output  400mA SOT-223 (TO-261)</field>
       </fields>
-      <libsource lib="Regulator_Linear" part="MCP1700x-330xxTT" description="250mA Low Quiscent Current LDO, 3.3V output, SOT-23"/>
+      <libsource lib="KSE_DCDC" part="NCV4274AST33T3G" description="Linear Voltage Regulator IC Positive Fixed 1 Output  400mA SOT-223 (TO-261)"/>
+      <property name="Manufacturer" value="onsemi "/>
+      <property name="MPN" value="NCV4274CST33T3G "/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_keywords" value="regulator linear ldo"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63/"/>
-      <tstamps>6ebc7398-af45-4624-a513-4b4a73f23bd1</tstamps>
+      <tstamps>8562b191-8129-4f0d-8020-6b18f000e04c</tstamps>
     </comp>
     <comp ref="C11">
       <value>22uF</value>
@@ -1436,24 +1462,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -1506,24 +1514,6 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diode" part="SS14">
-      <description>40V 1A Schottky Diode, SMA</description>
-      <docs>https://www.vishay.com/docs/88746/ss12.pdf</docs>
-      <footprints>
-        <fp>D*SMA*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SS14</field>
-        <field name="Footprint">Diode_SMD:D_SMA</field>
-        <field name="Datasheet">https://www.vishay.com/docs/88746/ss12.pdf</field>
-        <field name="Description">40V 1A Schottky Diode, SMA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Jumper" part="SolderJumper_2_Bridged">
@@ -1587,6 +1577,25 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="KSE_DCDC" part="NCV4274AST33T3G">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output  400mA SOT-223 (TO-261)</description>
+      <docs>https://no.mouser.com/datasheet/3/101/1/NCV4274C-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCV4274AST33T3G</field>
+        <field name="Footprint">KSE_DCDC:SOT230P700X175-4N</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/101/1/NCV4274C-D.PDF</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output  400mA SOT-223 (TO-261)</field>
+        <field name="Manufacturer">onsemi </field>
+        <field name="MPN">NCV4274CST33T3G </field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="KSE_DCDC" part="TPSM84338RCJR">
       <description>3.8-V to 28-V Input, 3A, 200kHz-2.2MHz synchronous step-down power module</description>
       <docs>https://www.ti.com/lit/ds/symlink/tpsm84338.pdf?ts=1764512975193&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM84338%252Fpart-details%252FTPSM84338RCJR</docs>
@@ -1609,6 +1618,29 @@
         <pin num="7" name="MODE" type="passive"/>
         <pin num="8" name="SS/PG" type="passive"/>
         <pin num="9" name="RT/SYNC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KSE_Diodes" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+        <field name="Manufacturer"/>
+        <field name="MPN"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KSE_Resistors" part="R_Small">
@@ -1941,25 +1973,6 @@
         <pin num="MP" name="MP" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="MCP1700x-330xxTT">
-      <description>250mA Low Quiscent Current LDO, 3.3V output, SOT-23</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP1700x-330xxTT</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</field>
-        <field name="Description">250mA Low Quiscent Current LDO, 3.3V output, SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Transistor_BJT" part="SS8050">
       <description>General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23</description>
       <docs>http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf</docs>
@@ -1984,9 +1997,6 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="Diode">
-      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
-    </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
     </library>
@@ -1995,9 +2005,6 @@
     </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
-    </library>
-    <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
@@ -2010,7 +2017,7 @@
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -2023,7 +2030,7 @@
       <node ref="S1" pin="2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="VDDIO" pintype="power_in"/>
-      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_out"/>
       <node ref="U5" pin="13" pinfunction="VDDA" pintype="power_in"/>
       <node ref="U5" pin="19" pinfunction="VDD" pintype="power_in"/>
       <node ref="U5" pin="32" pinfunction="VDD" pintype="power_in"/>
@@ -2032,7 +2039,6 @@
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="2" name="+9V" class="Default">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="3" name="+VBAT" class="Default">
@@ -2101,10 +2107,11 @@
     <net code="18" name="/Project Architecture/Power/10–26V to 9V2A Step-Down Converter/+9V" class="Default">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="PS1" pin="4" pinfunction="VOUT" pintype="power_out"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="/Project Architecture/Power/10–26V to 9V2A Step-Down Converter/Vin" class="Default">
+    <net code="19" name="/Project Architecture/Power/VBAT" class="Default">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="PS1" pin="6" pinfunction="VIN" pintype="power_in"/>
@@ -2169,7 +2176,7 @@
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
     <net code="34" name="/Project Architecture/V_USB" class="Default">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="A4_B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J6" pin="B4_A9" pinfunction="VBUS" pintype="passive"/>
     </net>
@@ -2188,7 +2195,7 @@
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -2205,7 +2212,8 @@
       <node ref="U1" pin="11" pinfunction="FSYNC" pintype="input"/>
       <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="25" pinfunction="EXP" pintype="passive"/>
-      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="18" pinfunction="VSS" pintype="power_in"/>
       <node ref="U5" pin="28" pinfunction="PB2" pintype="bidirectional"/>
       <node ref="U5" pin="63" pinfunction="VSS" pintype="passive"/>
@@ -2213,8 +2221,8 @@
     <net code="37" name="Net-(D1-K)" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="38" name="Net-(PS1-FB)" class="Default">
       <node ref="PS1" pin="2" pinfunction="FB" pintype="passive"/>
