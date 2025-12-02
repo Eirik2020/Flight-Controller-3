@@ -826,7 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 231.14 99.06)
+			(xy 209.55 99.06) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1088,7 @@
 	)
 	(hierarchical_label "DGND"
 		(shape input)
-		(at 231.14 99.06 0)
+		(at 223.52 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
