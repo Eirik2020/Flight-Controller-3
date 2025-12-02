@@ -1,4 +1,4 @@
-_local_|2025-11-30|root|Local changes not committed|False|True
+_local_|2025-12-02|root|Local changes not committed|False|True
+4755058|2025-12-02|Eirik Kaldhol Strandman|Added part-numbers and updated symbols|True|False
 6fafd0f|2025-11-30|Eirik Kaldhol Strandman|Updated LDO with new component standard.|True|False
 4dadb50|2025-11-30|Eirik Kaldhol Strandman|Modularized BEC and fixed generic components in schematic.|True|True
-5b377db|2025-11-27|Eirik Kaldhol Strandman|Wiring Complete, ERC and DRC remaining|True|True
