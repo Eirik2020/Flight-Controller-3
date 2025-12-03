@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">4dadb50</textvar>
+    <textvar name="GIT_HASH_PCB">4bce545</textvar>
     <textvar name="GIT_HASH_SCH">4dadb50</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">02-Dec-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-12-02</textvar>
+    <textvar name="RELEASE_DATE">03-Dec-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-12-03</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -683,6 +683,58 @@
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>a984f9f0-59e7-4687-b55b-504a117c01eb</tstamps>
     </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://no.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <description>MLCC</description>
+      <fields>
+        <field name="Manufacturer">Walsin </field>
+        <field name="MPN">0402N180F500CT </field>
+        <field name="V_MAX"/>
+        <field name="P_MAX"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Description">MLCC</field>
+      </fields>
+      <libsource lib="KSE_Capacitors" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Walsin "/>
+      <property name="MPN" value="0402N180F500CT "/>
+      <property name="V_MAX" value=""/>
+      <property name="P_MAX" value=""/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
+      <tstamps>c7caaefe-a4eb-4964-bb4d-39fcbd1f8f47</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://no.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <description>MLCC</description>
+      <fields>
+        <field name="Manufacturer">Walsin </field>
+        <field name="MPN">0402N180F500CT </field>
+        <field name="V_MAX"/>
+        <field name="P_MAX"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Description">MLCC</field>
+      </fields>
+      <libsource lib="KSE_Capacitors" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Walsin "/>
+      <property name="MPN" value="0402N180F500CT "/>
+      <property name="V_MAX" value=""/>
+      <property name="P_MAX" value=""/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
+      <tstamps>3efaeae8-70f3-4544-a7a8-689aed850921</tstamps>
+    </comp>
     <comp ref="C24">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -891,58 +943,6 @@
       <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
       <tstamps>33cb7290-db3a-4ad1-999a-ba7c61eedc8a</tstamps>
     </comp>
-    <comp ref="C32">
-      <value>27pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/Samsung_MLCC-1837944.pdf</datasheet>
-      <description>MLCC</description>
-      <fields>
-        <field name="Manufacturer">KYOCERA AVX </field>
-        <field name="MPN">06035C270JAT2A </field>
-        <field name="V_MAX"/>
-        <field name="P_MAX"/>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/Samsung_MLCC-1837944.pdf</field>
-        <field name="Description">MLCC</field>
-      </fields>
-      <libsource lib="KSE_Capacitors" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Manufacturer" value="KYOCERA AVX "/>
-      <property name="MPN" value="06035C270JAT2A "/>
-      <property name="V_MAX" value=""/>
-      <property name="P_MAX" value=""/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
-      <tstamps>e135a6ef-51f7-4039-be9f-0e1fed2addd4</tstamps>
-    </comp>
-    <comp ref="C33">
-      <value>27pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/Samsung_MLCC-1837944.pdf</datasheet>
-      <description>MLCC</description>
-      <fields>
-        <field name="Manufacturer">KYOCERA AVX </field>
-        <field name="MPN">06035C270JAT2A </field>
-        <field name="V_MAX"/>
-        <field name="P_MAX"/>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/Samsung_MLCC-1837944.pdf</field>
-        <field name="Description">MLCC</field>
-      </fields>
-      <libsource lib="KSE_Capacitors" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Manufacturer" value="KYOCERA AVX "/>
-      <property name="MPN" value="06035C270JAT2A "/>
-      <property name="V_MAX" value=""/>
-      <property name="P_MAX" value=""/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
-      <tstamps>289da9a5-03e7-41c9-a773-2b65acf2810c</tstamps>
-    </comp>
     <comp ref="C34">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -1054,22 +1054,26 @@
       <tstamps>9c2cc3bf-9c61-45e6-a739-d02da5966186</tstamps>
     </comp>
     <comp ref="Y1">
-      <value>LFXTAL055207Bulk</value>
-      <footprint>KSE_passive:Crystal_HC49-4H_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Two pin crystal</description>
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://no.mouser.com/datasheet/3/184/1/abm8.pdf</datasheet>
+      <description>Four pin crystal, GND on pin 3 and 4.</description>
       <fields>
-        <field name="Footprint">KSE_passive:Crystal_HC49-4H_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Two pin crystal</field>
+        <field name="Manufacturer">ABRACON </field>
+        <field name="MPN">ABM8-12.000MHZ-R100-D7G-T </field>
+        <field name="Footprint">Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/184/1/abm8.pdf</field>
+        <field name="Description">Four pin crystal, GND on pin 3 and 4.</field>
       </fields>
-      <libsource lib="KSE_passive" part="crystal_8MHz_THT_LFXTAL055207Bulk" description="Two pin crystal"/>
+      <libsource lib="KSE_passive" part="Crystal_4-Pin" description="Four pin crystal, GND on pin 3 and 4."/>
+      <property name="Manufacturer" value="ABRACON "/>
+      <property name="MPN" value="ABM8-12.000MHZ-R100-D7G-T "/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/Project Architecture/Microcontroller/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6b8b8a56-80fd-4343-a336-2683563c3c7d/"/>
-      <tstamps>77542f8b-db3e-4e68-a981-72e5081b39bd</tstamps>
+      <tstamps>874b0653-9f69-4951-93c8-543a08af7bc4</tstamps>
     </comp>
     <comp ref="C17">
       <value>100nF</value>
@@ -1769,22 +1773,26 @@
         <pin num="SH4" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KSE_passive" part="crystal_8MHz_THT_LFXTAL055207Bulk">
-      <description>Two pin crystal</description>
+    <libpart lib="KSE_passive" part="Crystal_4-Pin">
+      <description>Four pin crystal, GND on pin 3 and 4.</description>
       <docs>~</docs>
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
       <fields>
         <field name="Reference">Y</field>
-        <field name="Value">crystal_8MHz_THT_LFXTAL055207Bulk</field>
-        <field name="Footprint">KSE_passive:Crystal_HC49-4H_Vertical</field>
+        <field name="Value">Crystal_4-Pin</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Two pin crystal</field>
+        <field name="Description">Four pin crystal, GND on pin 3 and 4.</field>
+        <field name="Manufacturer"/>
+        <field name="MPN"/>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KSE_sensors" part="MPU-6500">
@@ -1987,8 +1995,8 @@
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
-      <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
@@ -2056,7 +2064,7 @@
       <node ref="U5" pin="62" pinfunction="PB9" pintype="bidirectional"/>
     </net>
     <net code="14" name="/Project Architecture/Microcontroller/CLK_OUT" class="Default">
-      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="PH0" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
@@ -2156,6 +2164,7 @@
     </net>
     <net code="36" name="DGND" class="Default">
       <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="2" pintype="passive"/>
@@ -2164,9 +2173,8 @@
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C30" pin="2" pintype="passive"/>
-      <node ref="C32" pin="2" pintype="passive"/>
-      <node ref="C33" pin="2" pintype="passive"/>
       <node ref="C34" pin="2" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
@@ -2184,6 +2192,8 @@
       <node ref="U5" pin="18" pinfunction="VSS" pintype="power_in"/>
       <node ref="U5" pin="28" pinfunction="PB2" pintype="bidirectional"/>
       <node ref="U5" pin="63" pinfunction="VSS" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="37" name="Net-(D1-K)" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
