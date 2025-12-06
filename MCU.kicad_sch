@@ -2119,25 +2119,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "S"
-				(at -5.08 2.54 0)
+				(at -4.064 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right bottom)
 				)
 			)
-			(property "Value" "TS32-7-35-BK-B-260-RA-SMT-TR"
-				(at -5.08 -2.54 0)
+			(property "Value" "NO"
+				(at -2.54 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right bottom)
 				)
 			)
 			(property "Footprint" "KSE_sensor:SW_TS32-7-35-BK-B-260-RA-SMT-TR"
-				(at 0 0 0)
+				(at 0.762 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2146,8 +2146,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/3/6118/1/ts32.pdf"
+				(at 0.762 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2155,8 +2155,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+				(at 1.016 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2164,18 +2164,8 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Same Sky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.7mm"
-				(at 0 0 0)
+			(property "Manufacturer" "Same Sky"
+				(at 1.27 -32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2184,108 +2174,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TS32-7-35-BK-B-260-RA-SMT-TR/Same+Sky/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS32-7-35-BK-B-260-RA-SMT-TR/Same+Sky/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TS32-7-35-BK-B-260-RA-SMT-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=18376088&manufacturer=Same Sky&part_name=TS32-7-35-BK-B-260-RA-SMT-TR&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Same Sky"
-				(at 0 0 0)
+			(property "MPN" "TS32-7-35-BK-B-260-RA-SMT-TR"
+				(at 1.016 -26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2295,32 +2185,8 @@
 				)
 			)
 			(symbol "TS32-7-35-BK-B-260-RA-SMT-TR_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.794 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.54 0)
+					(center 0 1.27)
 					(radius 0.3302)
 					(stroke
 						(width 0.1524)
@@ -2332,7 +2198,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 2.921 0)
+						(xy 0 -2.54) (xy -2.54 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -2342,8 +2208,47 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "TS32-7-35-BK-B-260-RA-SMT-TR_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS32-7-35-BK-B-260-RA-SMT-TR_1_0"
 				(pin passive line
-					(at -7.62 0 0)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2361,7 +2266,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2371,6 +2276,43 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "MP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2874,6 +2816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "018d6ad2-9ee7-4c9e-b3f1-56ccbd511825")
+	)
+	(junction
+		(at 257.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b30ef7-45dd-44c3-9fc7-d8528d3c4b64")
 	)
 	(junction
 		(at 257.81 48.26)
@@ -3447,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 55.88) (xy 257.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72625294-5a17-45c7-9b64-4e4180d0e8ae")
+	)
+	(wire
+		(pts
 			(xy 257.81 90.17) (xy 257.81 95.25)
 		)
 		(stroke
@@ -3687,6 +3645,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 46.99) (xy 261.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df58e1b6-657d-484e-8425-c4b6e5c19cb2")
+	)
+	(wire
+		(pts
 			(xy 143.51 29.21) (xy 143.51 44.45)
 		)
 		(stroke
@@ -3777,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 54.61) (xy 257.81 58.42)
+			(xy 257.81 54.61) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3834,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "fc138f05-9a57-4bd9-926a-8bbf5ee5f1a2")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 257.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9492ee-d1ee-4b3a-9be9-9b1eadeb4a4b")
 	)
 	(label "DFU_Enable"
 		(at 232.41 48.26 0)
@@ -4378,25 +4356,24 @@
 	)
 	(symbol
 		(lib_id "KSE_sensors:TS32-7-35-BK-B-260-RA-SMT-TR")
-		(at 257.81 39.37 90)
+		(at 257.81 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2759d25e-3ba7-417d-a4b5-0bdd2850782c")
 		(property "Reference" "S1"
-			(at 259.08 38.0999 90)
+			(at 251.968 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TS32-7-35-BK-B-260-RA-SMT-TR"
-			(at 259.08 40.6399 90)
+		(property "Value" "NO"
+			(at 253.492 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/6118/1/ts32.pdf"
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -4424,7 +4401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -4563,11 +4540,37 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Same Sky"
+			(at 259.08 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS32-7-35-BK-B-260-RA-SMT-TR"
+			(at 258.826 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cb5cc6b-0a79-41c8-a991-98c1590b3b54")
 		)
 		(pin "1"
 			(uuid "cf3a76eb-b051-43f7-8114-527f4c059c7b")
+		)
+		(pin "SH1"
+			(uuid "c6c4afa4-a4de-4ac5-88a0-2a42be51d1bb")
+		)
+		(pin "SH2"
+			(uuid "2337d7c7-c5ae-4d07-87a7-3174a3ff6ab9")
 		)
 		(instances
 			(project "FCU3"
@@ -4713,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 31.75 0)
+		(at 257.81 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4723,7 +4726,7 @@
 		(fields_autoplaced yes)
 		(uuid "33424bf5-a0d1-4b99-98b0-cf2e48a6f2cd")
 		(property "Reference" "#PWR014"
-			(at 257.81 35.56 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4735,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 257.81 26.67 0)
+			(at 257.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 31.75 0)
+			(at 257.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 31.75 0)
+			(at 257.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 31.75 0)
+			(at 257.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
+		(property "Footprint" "KSE_passive:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
 			(at 257.81 85.09 0)
 			(effects
 				(font
@@ -5877,15 +5880,15 @@
 	(symbol
 		(lib_id "KSE_Resistors:R_Small")
 		(at 257.81 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ca7fa65-2e2c-440b-92ff-f63d1cc6ddd6")
 		(property "Reference" "R8"
-			(at 260.35 50.7999 0)
+			(at 255.27 50.7999 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5894,7 +5897,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 260.35 53.3399 0)
+			(at 255.27 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 257.81 58.42 0)
+		(at 257.81 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6231,7 +6234,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1395c4b-cec9-4607-9244-c67b0902faa4")
 		(property "Reference" "#PWR016"
-			(at 257.81 64.77 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6243,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 257.81 63.5 0)
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 58.42 0)
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 58.42 0)
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 257.81 58.42 0)
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
