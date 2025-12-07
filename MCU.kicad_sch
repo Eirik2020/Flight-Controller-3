@@ -1471,7 +1471,7 @@
 					(alternate "TIM8_CH3N" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D2" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 -7.62 180)
 					(length 2.54)
 					(name "PB2"
@@ -3091,10 +3091,6 @@
 		(uuid "0e994a62-2be2-436b-83af-48cb385b3422")
 	)
 	(no_connect
-		(at 130.81 97.79)
-		(uuid "159738a8-c468-4de3-8654-731bd769b58c")
-	)
-	(no_connect
 		(at 130.81 120.65)
 		(uuid "4a07f556-0f46-43f1-be3e-ba7017ef16fa")
 	)
@@ -3129,10 +3125,6 @@
 	(no_connect
 		(at 171.45 107.95)
 		(uuid "7d8507ca-c963-4a9d-b2d6-c6166d4b5420")
-	)
-	(no_connect
-		(at 130.81 95.25)
-		(uuid "818e43c0-00ca-4d5b-ae7e-1cf6f145d678")
 	)
 	(no_connect
 		(at 171.45 87.63)
@@ -4080,16 +4072,6 @@
 		)
 		(uuid "48fd9fae-84a4-4232-ae50-22be800b78e3")
 	)
-	(label "SWO"
-		(at 110.49 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "609f00dd-1895-4727-b6bd-18e6e6e2426f")
-	)
 	(label "DFU_Enable"
 		(at 232.41 48.26 0)
 		(effects
@@ -4241,6 +4223,17 @@
 		)
 		(uuid "660e34c2-7e41-4836-861b-ba9639a7b012")
 	)
+	(hierarchical_label "LED0"
+		(shape input)
+		(at 130.81 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66cfb09a-a3a9-41c3-83ca-4b9ddda53383")
+	)
 	(hierarchical_label "ADC_CURR"
 		(shape input)
 		(at 171.45 77.47 0)
@@ -4306,6 +4299,17 @@
 			(justify right)
 		)
 		(uuid "bdee2137-9584-4da3-8c45-8fb806f736a7")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 130.81 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecbd4c73-4c3b-4e4b-8d7b-c15462813d40")
 	)
 	(hierarchical_label "MCU_I2C1_SDA"
 		(shape input)

@@ -996,26 +996,7 @@
 							)
 						)
 					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
+					(number "MP"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1265,7 +1246,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "MP"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1529,17 +1510,17 @@
 					)
 				)
 				(pin no_connect line
-					(at 12.7 -5.08 180)
+					(at 12.7 -3.81 180)
 					(length 5.08)
 					(hide yes)
-					(name "SBU1"
+					(name "SBU2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A8"
+					(number "B8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1551,14 +1532,14 @@
 					(at 12.7 -5.08 180)
 					(length 5.08)
 					(hide yes)
-					(name "SBU2"
+					(name "SBU1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "B8"
+					(number "A8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1775,6 +1756,220 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM06B-SRSS-TB(LF)(SN)_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SM06B-SRSS-TB(LF)(SN)"
+				(at -11.938 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KSE_connector:JST_SM06B-SRSS-TB(LF)(SN)"
+				(at 1.016 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://no.mouser.com/datasheet/3/1070/1/eSR_SZ.pdf"
+				(at 1.016 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector, 6-pin, 1.0mm pitch, JST SH."
+				(at 1.016 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST Commercial "
+				(at -1.27 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
+				(at -2.032 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM06B-SRSS-TB(LF)(SN)_1_0_0"
+				(rectangle
+					(start -2.54 8.89)
+					(end 2.54 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SM06B-SRSS-TB(LF)(SN)_1_1_0"
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "MP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2490,7 +2685,7 @@
 	)
 	(text "Ground Ties"
 		(exclude_from_sim no)
-		(at 33.782 255.27 0)
+		(at 34.036 252.73 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2568,6 +2763,12 @@
 			)
 		)
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
+	)
+	(junction
+		(at 45.72 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eaa3914-d1d2-4840-a3c1-e0758d96215c")
 	)
 	(junction
 		(at 69.85 266.7)
@@ -2682,6 +2883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59acbe2-290e-42c4-980b-49bbcf6a2931")
+	)
+	(junction
+		(at 33.02 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f03d46-0424-476e-b79e-693c62e90737")
 	)
 	(junction
 		(at 349.25 184.15)
@@ -5093,6 +5300,72 @@
 		(uuid "ee569d86-e233-414d-84bc-81415bd65de8")
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "023265a9-20bb-4a16-a851-9630d15e1a0c")
+		(property "Reference" "#FLG03"
+			(at 33.02 259.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 33.02 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa32e924-247d-4677-abd0-65b1ac4a551e")
+		)
+		(instances
+			(project "FCU3"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KSE_Diodes:LED")
 		(at 281.94 68.58 90)
 		(unit 1)
@@ -5428,6 +5701,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SM06B-SRSS-TB(LF)(SN)_1")
 		(lib_id "KSE_connectors:SM06B-SRSS-TB(LF)(SN)")
 		(at 358.14 187.96 0)
 		(unit 1)
@@ -5506,7 +5780,7 @@
 		(pin "3"
 			(uuid "648e75eb-0e13-4092-92f3-0684578e7a70")
 		)
-		(pin "S1"
+		(pin "MP"
 			(uuid "cc1abb80-2ef9-430e-bc0b-812816a4311f")
 		)
 		(pin "4"
@@ -5517,9 +5791,6 @@
 		)
 		(pin "5"
 			(uuid "7f6d1087-6776-475e-a8b1-ba4195b80b32")
-		)
-		(pin "S2"
-			(uuid "3d1c4d7b-f130-4724-9800-b66a3a0c419a")
 		)
 		(pin "1"
 			(uuid "ede64828-39b8-4dd0-baa7-0b2c121ade6a")
@@ -5612,7 +5883,7 @@
 		(pin "3"
 			(uuid "7d73d458-0212-4781-8508-97cef26cb999")
 		)
-		(pin "S1"
+		(pin "MP"
 			(uuid "7b793659-dd15-4ac9-835f-975aaad80fae")
 		)
 		(pin "4"
@@ -5623,9 +5894,6 @@
 		)
 		(pin "5"
 			(uuid "f06c53c4-648b-470c-9434-0552e728b83a")
-		)
-		(pin "S2"
-			(uuid "82ec8750-9a9a-42df-94c3-e5844fe6f541")
 		)
 		(pin "1"
 			(uuid "981cf383-fbc2-492f-9e15-22e0219c7fab")
@@ -5839,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KSE_connector:JST_SM08B-SRSS-TB(LF)(SN)"
+		(property "Footprint" "KSE_connector:JST_SM08B-SRSS-TB_LF__SN_"
 			(at 60.706 106.172 0)
 			(effects
 				(font
@@ -5909,7 +6177,7 @@
 		(pin "2"
 			(uuid "250e74f8-0a43-4faa-a18d-1753e5e66375")
 		)
-		(pin "9"
+		(pin "MP"
 			(uuid "d1019e5b-b9ef-4537-aa1f-96b2b802b921")
 		)
 		(instances
@@ -8080,6 +8348,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 45.72 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c090fd3d-1a69-4d65-9fbc-fc1e5152751a")
+		(property "Reference" "#FLG02"
+			(at 45.72 259.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 45.72 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 45.72 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7901b6f-fea8-426c-84d1-1372c7c42366")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 346.71 127 0)
 		(mirror y)
@@ -8789,16 +9123,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_BAT" input
-			(at 171.45 214.63 180)
-			(uuid "97e84fa9-d307-4594-ab75-0e40a4053e5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "V_USB" input
 			(at 171.45 219.71 180)
 			(uuid "f7f304d3-89e1-4db2-bc7f-d03229df7c5e")
@@ -8842,6 +9166,16 @@
 		(pin "DGND" input
 			(at 217.17 224.79 270)
 			(uuid "07dddfd9-43af-41df-8deb-26838fc594a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_BAT" input
+			(at 171.45 214.63 180)
+			(uuid "8da93687-fccd-4582-93a2-24038da57276")
 			(effects
 				(font
 					(size 1.27 1.27)

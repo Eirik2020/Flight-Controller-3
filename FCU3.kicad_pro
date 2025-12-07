@@ -58,7 +58,104 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|157350000|88387500|3417a293-1d72-4dae-adf1-86e6b656da89|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|157350000|89037500|25f89df5-3383-4de3-b64b-e83715cbee45|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|157350000|90337500|0bc14d69-d34a-40e6-aecc-3e2ab04d421b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|157350000|90987500|26aa599b-9cd6-4e8e-96b8-e97ee7736bae|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|157350000|88387500|3417a293-1d72-4dae-adf1-86e6b656da89|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|157350000|89037500|25f89df5-3383-4de3-b64b-e83715cbee45|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|157350000|90337500|0bc14d69-d34a-40e6-aecc-3e2ab04d421b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|157350000|90987500|26aa599b-9cd6-4e8e-96b8-e97ee7736bae|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158137000|88387500|1a37112e-2a4a-4625-9263-43db02fca6f6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158137000|89037500|16669714-ac03-4fb9-822b-af8d060e588c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158137000|90337500|0af9a88d-326e-4184-af8c-d290b85e7c67|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158137000|90987500|0ad199d5-af31-4af0-8499-da3911f590c5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158925000|88387500|ddd0b97a-2e26-4bbc-a26c-d95a1bd277db|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158925000|89037500|b7a45a6e-e381-4286-9f2e-dc91d53fbfa6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158925000|90337500|b35f0182-39ab-4304-8fec-e3d5f7559137|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|158925000|90987500|d79ccf27-5515-4e8e-90e6-65f2ca7b9a0f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_to_hole|157350000|90337500|0bc14d69-d34a-40e6-aecc-3e2ab04d421b|26aa599b-9cd6-4e8e-96b8-e97ee7736bae",
+          ""
+        ],
+        [
+          "hole_to_hole|158137000|90337500|0ad199d5-af31-4af0-8499-da3911f590c5|0af9a88d-326e-4184-af8c-d290b85e7c67",
+          ""
+        ],
+        [
+          "hole_to_hole|158925000|90337500|b35f0182-39ab-4304-8fec-e3d5f7559137|d79ccf27-5515-4e8e-90e6-65f2ca7b9a0f",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|139070750|71057500|f3fd1997-cd22-4f1c-9a0f-a713756c4bcf|00000000-0000-0000-0000-000000000000",
+          "Ok, more stringent requirement"
+        ],
+        [
+          "lib_footprint_mismatch|147350000|84372500|d55311d8-2b27-4238-b574-19220e52fc46|00000000-0000-0000-0000-000000000000",
+          "Ok, more stringent requirement"
+        ],
+        [
+          "lib_footprint_mismatch|159350000|89425000|36ba1d67-7eb3-45d5-94b3-918ffc715e8c|00000000-0000-0000-0000-000000000000",
+          "Ok, more stringent requirement"
+        ],
+        [
+          "silk_edge_clearance|136710000|66845000|57634b1e-7ded-4d17-b16b-2fc8cf6c2dcb|22f0ff80-f7bf-4b7d-8c06-f50a09aa8050",
+          "Ok"
+        ],
+        [
+          "silk_edge_clearance|145650000|66845000|57634b1e-7ded-4d17-b16b-2fc8cf6c2dcb|60ee4df8-6201-4822-8686-c49d1237e2c7",
+          "Ok, USB"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -79,7 +176,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
@@ -138,7 +235,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.114,
         "min_via_diameter": 0.55,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -265,7 +362,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|2819400|685800|034c4185-0427-4478-b543-492253c88444|00000000-0000-0000-0000-000000000000|||",
+        "LED uses SMD"
+      ],
+      [
+        "footprint_link_issues|3022600|685800|66d74ccc-c917-4ae8-9d67-6d189f572c6a|00000000-0000-0000-0000-000000000000|||",
+        "LED uses SMD"
+      ],
+      [
+        "pin_to_pin|1638300|889000|87d94ceb-e7b2-4fd9-bc9b-173c464bd1cf|6ea162e6-3dc8-4c85-b0a6-759826506ca0|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/253d5c3b-3006-4c7f-964a-fd84ac77ef63",
+        "Power ORing Diode"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -451,7 +561,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "error",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -477,7 +587,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
