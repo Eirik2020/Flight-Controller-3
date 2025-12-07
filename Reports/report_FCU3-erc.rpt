@@ -1,0 +1,239 @@
+ERC report (2025-12-07T22:38:39+0000, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_connector'.
+    ; warning
+    @(0.6096 mm, 0.8382 mm): Symbol J4 [SM08B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_connectors'
+    ; warning
+    @(0.6096 mm, 0.8382 mm): Symbol J4 [SM08B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(0.8636 mm, 0.635 mm): Symbol R14 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(0.8636 mm, 0.7112 mm): Symbol R13 [R_Small]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_connector'.
+    ; warning
+    @(0.6223 mm, 1.5875 mm): Symbol J3 [UJ20-C-H-G-SMT-1-P16-TR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_connectors'
+    ; warning
+    @(0.6223 mm, 1.5875 mm): Symbol J3 [UJ20-C-H-G-SMT-1-P16-TR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(0.889 mm, 1.6383 mm): Symbol R17 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(0.9398 mm, 1.6383 mm): Symbol R16 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(2.8194 mm, 0.6223 mm): Symbol R4 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Diodes'
+    ; warning
+    @(2.8194 mm, 0.6858 mm): Symbol D2 [LED]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(3.0226 mm, 0.6223 mm): Symbol R7 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Diodes'
+    ; warning
+    @(3.0226 mm, 0.6858 mm): Symbol D4 [LED]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(3.4544 mm, 1.3462 mm): Symbol R2 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(3.4798 mm, 1.3462 mm): Symbol R1 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(3.1623 mm, 1.9939 mm): Symbol R11 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Transistors'
+    ; warning
+    @(3.1877 mm, 2.0955 mm): Symbol Q1 [SS8050]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_connector'.
+    ; warning
+    @(3.5814 mm, 1.4605 mm): Symbol J1 [SM06B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_connectors'
+    ; warning
+    @(3.5814 mm, 1.4605 mm): Symbol J1 [SM06B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(3.2639 mm, 2.0955 mm): Symbol R3 [R_Small]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_connector'.
+    ; warning
+    @(3.5814 mm, 1.8796 mm): Symbol J5 [SM06B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_connectors'
+    ; warning
+    @(3.5814 mm, 1.8796 mm): Symbol J5 [SM06B-SRSS-TB(LF)(SN)]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.1684 mm, 0.3302 mm): Symbol C28 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.2192 mm, 0.3302 mm): Symbol C31 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_MCU'
+    ; warning
+    @(1.5113 mm, 0.9271 mm): Symbol U3 [STM32F405RGT6]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.778 mm, 0.3302 mm): Symbol C34 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.3175 mm, 1.7907 mm): Symbol C24 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.4445 mm, 1.7907 mm): Symbol C25 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.5715 mm, 1.7907 mm): Symbol C26 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.6858 mm, 1.7907 mm): Symbol C27 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.4384 mm, 0.9017 mm): Symbol C2 [C_Small]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_sensor'.
+    ; warning
+    @(2.5781 mm, 0.3937 mm): Symbol S1 [TS32-7-35-BK-B-260-RA-SMT-TR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_sensors'
+    ; warning
+    @(2.5781 mm, 0.3937 mm): Symbol S1 [TS32-7-35-BK-B-260-RA-SMT-TR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(2.5781 mm, 0.5207 mm): Symbol R8 [R_Small]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_passive'.
+    ; warning
+    @(2.5781 mm, 0.8509 mm): Symbol Y1 [Crystal_4-Pin]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_passive'
+    ; warning
+    @(2.5781 mm, 0.8509 mm): Symbol Y1 [Crystal_4-Pin]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.5146 mm, 1.2573 mm): Symbol C29 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.7178 mm, 0.9017 mm): Symbol C3 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.6289 mm, 1.2573 mm): Symbol C30 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Diodes'
+    ; warning
+    @(1.6002 mm, 0.8382 mm): Symbol D3 [D_Schottky]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Diodes'
+    ; warning
+    @(1.6002 mm, 0.889 mm): Symbol D1 [D_Schottky]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.7272 mm, 0.9271 mm): Symbol C1 [C]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_DCDC'.
+    ; warning
+    @(1.9304 mm, 0.889 mm): Symbol U2 [AP7375-33SA-7]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_DCDC'
+    ; warning
+    @(1.9304 mm, 0.889 mm): Symbol U2 [AP7375-33SA-7]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.1336 mm, 0.9271 mm): Symbol C20 [C]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.7493 mm, 0.8763 mm): Symbol C11 [C]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(0.9398 mm, 0.8763 mm): Symbol C18 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(1.1557 mm, 0.9652 mm): Symbol R12 [R_Small]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_DCDC'.
+    ; warning
+    @(1.3589 mm, 0.8382 mm): Symbol PS1 [TPSM84338RCJR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_DCDC'
+    ; warning
+    @(1.3589 mm, 0.8382 mm): Symbol PS1 [TPSM84338RCJR]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(1.5875 mm, 0.8001 mm): Symbol R6 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
+    ; warning
+    @(1.5875 mm, 0.8763 mm): Symbol R5 [R_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.8796 mm, 0.8763 mm): Symbol C21 [C]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(2.0193 mm, 0.8763 mm): Symbol C19 [C]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'KSE_sensor'.
+    ; warning
+    @(1.4351 mm, 0.8255 mm): Symbol U1 [MPU-6500]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_sensors'
+    ; warning
+    @(1.4351 mm, 0.8255 mm): Symbol U1 [MPU-6500]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.8415 mm, 0.6858 mm): Symbol C23 [C_Small]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Capacitors'
+    ; warning
+    @(1.8923 mm, 0.6858 mm): Symbol C22 [C_Small]
+
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Microcontroller/
+***** Sheet /Project Architecture/Inertial Measurement Unit/
+***** Sheet /Project Architecture/Power/
+***** Sheet /Project Architecture/Power/10–26V to 9V2A Step-Down Converter/
+***** Sheet /Revision History/
+ ** ERC messages: 57  Errors 0  Warnings 57
