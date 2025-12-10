@@ -1,29 +1,7 @@
 ** Drc report for FCU3.kicad_pcb **
-** Created on 2025-12-07T22:38:41+0000 **
+** Created on 2025-12-10T21:34:57+0000 **
 
-** Found 28 DRC violations **
-[lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'.
-    ; warning
-    @(143.35 mm, 93.52 mm): Footprint U3
-[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
-    ; warning
-    @(154.1 mm, 97.1375 mm): Footprint Q1
-[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
-    ; warning
-    @(141.6 mm, 70.95 mm): PCB text 'CLK
-' on B.Silkscreen
-[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
-    ; warning
-    @(150.1 mm, 70.85 mm): PCB text 'RST' on B.Silkscreen
-[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
-    ; warning
-    @(146.8 mm, 70.9 mm): PCB text 'VCC' on B.Silkscreen
-[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
-    ; warning
-    @(138.95 mm, 71.0 mm): PCB text 'DIO' on B.Silkscreen
-[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
-    ; warning
-    @(156.65 mm, 70.75 mm): PCB text 'GND' on B.Silkscreen
+** Found 23 DRC violations **
 [annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1150 mm)
     ; error (excluded)
     @(157.35 mm, 88.3875 mm): PTH pad 4 [+9V] of PS1
@@ -92,24 +70,15 @@
 [drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
     ; error (excluded)
     @(157.35 mm, 90.9875 mm): PTH pad 5 [unconnected-(PS1-SW-Pad5)_3] of PS1
+[lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'.
+    ; warning (excluded)
+    @(143.35 mm, 93.52 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning (excluded)
+    @(154.1 mm, 97.1375 mm): Footprint Q1
 
 ** Found 0 unconnected pads **
 
-** Found 5 Footprint errors **
-[net_conflict]: No pad found for pin MP (PGND) in schematic.
-    ; warning
-    @(132.0 mm, 70.0825 mm): Footprint H1
-[net_conflict]: No pad found for pin MP (PGND) in schematic.
-    ; warning
-    @(162.4 mm, 70.045 mm): Footprint H2
-[net_conflict]: No pad found for pin MP (PGND) in schematic.
-    ; warning
-    @(131.9 mm, 100.545 mm): Footprint H3
-[net_conflict]: No pad found for pin MP (PGND) in schematic.
-    ; warning
-    @(162.4 mm, 100.545 mm): Footprint H4
-[footprint_symbol_mismatch]: KSE_connector:JST_SM08B-SRSS-TB(LF)(SN) doesn't match footprint given by symbol (KSE_connector:JST_SM08B-SRSS-TB_LF__SN_).
-    ; warning
-    @(128.95 mm, 82.345 mm): Footprint J4
+** Found 0 Footprint errors **
 
 ** End of Report **

@@ -1,13 +1,13 @@
-ERC report (2025-12-07T22:38:39+0000, Encoding UTF8)
+ERC report (2025-12-10T21:34:56+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library 'KSE_connector'.
     ; warning
-    @(0.6096 mm, 0.8382 mm): Symbol J4 [SM08B-SRSS-TB(LF)(SN)]
+    @(0.6096 mm, 0.8382 mm): Symbol J2 [SM08B-SRSS-TB(LF)(SN)]
 
 [lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_connectors'
     ; warning
-    @(0.6096 mm, 0.8382 mm): Symbol J4 [SM08B-SRSS-TB(LF)(SN)]
+    @(0.6096 mm, 0.8382 mm): Symbol J2 [SM08B-SRSS-TB(LF)(SN)]
 
 [lib_symbol_issues]: The current configuration does not include the symbol library 'KSE_Resistors'
     ; warning

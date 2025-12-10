@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">041f021</textvar>
+    <textvar name="GIT_HASH_PCB">4c2c47c</textvar>
     <textvar name="GIT_HASH_SCH">4dadb50</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Flight Controller 3</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">07-Dec-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-12-07</textvar>
+    <textvar name="RELEASE_DATE">10-Dec-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-12-10</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -327,80 +327,80 @@
       <tstamps>66d74ccc-c917-4ae8-9d67-6d189f572c6a</tstamps>
     </comp>
     <comp ref="H1">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
       <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
+      <description>Mounting Hole without connection</description>
       <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value="Project Architecture"/>
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>70db670f-fc3f-4ab5-b398-68621a1b74fa</tstamps>
+      <tstamps>c5c519a9-ce86-4a51-907a-10d8715148dc</tstamps>
     </comp>
     <comp ref="H2">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
       <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
+      <description>Mounting Hole without connection</description>
       <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value="Project Architecture"/>
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>37515296-6f19-495e-a243-189c51374e77</tstamps>
+      <tstamps>20560e68-c43f-4381-980d-a24cf0bf276a</tstamps>
     </comp>
     <comp ref="H3">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
       <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
+      <description>Mounting Hole without connection</description>
       <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value="Project Architecture"/>
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>9a21a1a6-6de6-4e94-8345-3f073c336783</tstamps>
+      <tstamps>a3b013bc-5064-4871-801f-7985c3938b17</tstamps>
     </comp>
     <comp ref="H4">
-      <value>MountingHole_Pad_MP</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380</footprint>
       <datasheet>~</datasheet>
-      <description>Mounting Hole with connection as pad named MP</description>
+      <description>Mounting Hole without connection</description>
       <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad_MP" description="Mounting Hole with connection as pad named MP"/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value="Project Architecture"/>
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>83febdc3-42e1-4406-815f-fb440abf8ac0</tstamps>
+      <tstamps>54b9c905-0580-44c8-bc98-e23b48cbe8a9</tstamps>
     </comp>
     <comp ref="J1">
       <value>SM06B-SRSS-TB(LF)(SN)</value>
@@ -422,6 +422,26 @@
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>23d4acef-584f-4f09-bc0e-c9cc6262a596</tstamps>
     </comp>
+    <comp ref="J2">
+      <value>SM08B-SRSS-TB(LF)(SN)</value>
+      <footprint>KSE_connector:JST_SM08B-SRSS-TB(LF)(SN)</footprint>
+      <datasheet>https://no.mouser.com/datasheet/3/1070/1/eSH.pdf</datasheet>
+      <description>Connector, 8-pin, 1.0mm pitch, JST SH.</description>
+      <fields>
+        <field name="Manufacturer">JST Commercial </field>
+        <field name="MPN">SM08B-SRSS-TB(LF)(SN) </field>
+        <field name="Footprint">KSE_connector:JST_SM08B-SRSS-TB(LF)(SN)</field>
+        <field name="Datasheet">https://no.mouser.com/datasheet/3/1070/1/eSH.pdf</field>
+        <field name="Description">Connector, 8-pin, 1.0mm pitch, JST SH.</field>
+      </fields>
+      <libsource lib="KSE_connectors" part="SM08B-SRSS-TB(LF)(SN)" description="Connector, 8-pin, 1.0mm pitch, JST SH."/>
+      <property name="Manufacturer" value="JST Commercial "/>
+      <property name="MPN" value="SM08B-SRSS-TB(LF)(SN) "/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>5da8c98e-8779-447f-af45-7e08a6c08e2e</tstamps>
+    </comp>
     <comp ref="J3">
       <value>UJ20-C-H-G-SMT-1-P16-TR</value>
       <footprint>KSE_connector:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR</footprint>
@@ -441,26 +461,6 @@
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>82a4f463-6e92-4797-8fc2-c31f48b2f64a</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>SM08B-SRSS-TB(LF)(SN)</value>
-      <footprint>KSE_connector:JST_SM08B-SRSS-TB_LF__SN_</footprint>
-      <datasheet>https://no.mouser.com/datasheet/3/1070/1/eSH.pdf</datasheet>
-      <description>Connector, 8-pin, 1.0mm pitch, JST SH.</description>
-      <fields>
-        <field name="Manufacturer">JST Commercial </field>
-        <field name="MPN">SM08B-SRSS-TB(LF)(SN) </field>
-        <field name="Footprint">KSE_connector:JST_SM08B-SRSS-TB_LF__SN_</field>
-        <field name="Datasheet">https://no.mouser.com/datasheet/3/1070/1/eSH.pdf</field>
-        <field name="Description">Connector, 8-pin, 1.0mm pitch, JST SH.</field>
-      </fields>
-      <libsource lib="KSE_connectors" part="SM08B-SRSS-TB(LF)(SN)" description="Connector, 8-pin, 1.0mm pitch, JST SH."/>
-      <property name="Manufacturer" value="JST Commercial "/>
-      <property name="MPN" value="SM08B-SRSS-TB(LF)(SN) "/>
-      <property name="Sheetname" value="Project Architecture"/>
-      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
-      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>3431ba3a-506c-4f54-aa62-5f9af14eebdc</tstamps>
     </comp>
     <comp ref="J5">
       <value>SM06B-SRSS-TB(LF)(SN)</value>
@@ -2099,7 +2099,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SM08B-SRSS-TB(LF)(SN)</field>
-        <field name="Footprint">KSE_connector:JST_SM08B-SRSS-TB_LF__SN_</field>
+        <field name="Footprint">KSE_connector:JST_SM08B-SRSS-TB(LF)(SN)</field>
         <field name="Datasheet">https://no.mouser.com/datasheet/3/1070/1/eSH.pdf</field>
         <field name="Description">Connector, 8-pin, 1.0mm pitch, JST SH.</field>
         <field name="Manufacturer">JST Commercial </field>
@@ -2219,22 +2219,19 @@
         <pin num="SH2" name="MP" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Mechanical" part="MountingHole_Pad_MP">
-      <description>Mounting Hole with connection as pad named MP</description>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
       <docs>~</docs>
       <footprints>
-        <fp>MountingHole*Pad*</fp>
+        <fp>MountingHole*</fp>
       </footprints>
       <fields>
         <field name="Reference">H</field>
-        <field name="Value">MountingHole_Pad_MP</field>
+        <field name="Value">MountingHole</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection as pad named MP</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
-      <pins>
-        <pin num="MP" name="MP" type="input"/>
-      </pins>
     </libpart>
   </libparts>
   <libraries>
@@ -2291,12 +2288,12 @@
     <net code="3" name="+VBAT" class="Default">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="PS1" pin="6" pinfunction="VIN" pintype="power_in"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
     <net code="4" name="/Project Architecture/ANA_ADC_CURR" class="Default">
-      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="PC1" pintype="bidirectional"/>
     </net>
     <net code="5" name="/Project Architecture/ANA_ADC_VBAT" class="Default">
@@ -2313,19 +2310,19 @@
       <node ref="U3" pin="24" pinfunction="PC4" pintype="bidirectional"/>
     </net>
     <net code="8" name="/Project Architecture/ESC_SIG_M1" class="Default">
-      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U3" pin="41" pinfunction="PA8" pintype="bidirectional"/>
     </net>
     <net code="9" name="/Project Architecture/ESC_SIG_M2" class="Default">
-      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U3" pin="40" pinfunction="PC9" pintype="bidirectional"/>
     </net>
     <net code="10" name="/Project Architecture/ESC_SIG_M3" class="Default">
-      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="U3" pin="36" pinfunction="PB15" pintype="bidirectional"/>
     </net>
     <net code="11" name="/Project Architecture/ESC_SIG_M4" class="Default">
-      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="U3" pin="39" pinfunction="PC8" pintype="bidirectional"/>
     </net>
     <net code="12" name="/Project Architecture/I2C1_SCL" class="Default">
@@ -2381,7 +2378,7 @@
       <node ref="U3" pin="23" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="24" name="/Project Architecture/UART1_RX" class="Default">
-      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="43" pinfunction="PA10" pintype="bidirectional"/>
     </net>
     <net code="25" name="/Project Architecture/UART2_RX" class="Default">
@@ -2519,19 +2516,15 @@
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="H1" pin="MP" pinfunction="MP" pintype="input"/>
-      <node ref="H2" pin="MP" pinfunction="MP" pintype="input"/>
-      <node ref="H3" pin="MP" pinfunction="MP" pintype="input"/>
-      <node ref="H4" pin="MP" pinfunction="MP" pintype="input"/>
       <node ref="J1" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="MP" pintype="passive"/>
       <node ref="J3" pin="A1_B12" pinfunction="GND" pintype="power_out"/>
       <node ref="J3" pin="B1_A12" pinfunction="GND" pintype="power_out"/>
       <node ref="J3" pin="SH1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J3" pin="SH2" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J3" pin="SH3" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J3" pin="SH4" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J4" pin="MP" pinfunction="MP" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J5" pin="MP" pinfunction="MP" pintype="passive"/>
       <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
