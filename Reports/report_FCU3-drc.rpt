@@ -1,7 +1,13 @@
 ** Drc report for FCU3.kicad_pcb **
-** Created on 2025-12-10T21:34:57+0000 **
+** Created on 2025-12-10T21:48:15+0000 **
 
 ** Found 23 DRC violations **
+[lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'.
+    ; warning
+    @(143.35 mm, 93.52 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(154.1 mm, 97.1375 mm): Footprint Q1
 [annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1150 mm)
     ; error (excluded)
     @(157.35 mm, 88.3875 mm): PTH pad 4 [+9V] of PS1
@@ -70,12 +76,6 @@
 [drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
     ; error (excluded)
     @(157.35 mm, 90.9875 mm): PTH pad 5 [unconnected-(PS1-SW-Pad5)_3] of PS1
-[lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'.
-    ; warning (excluded)
-    @(143.35 mm, 93.52 mm): Footprint U3
-[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
-    ; warning (excluded)
-    @(154.1 mm, 97.1375 mm): Footprint Q1
 
 ** Found 0 unconnected pads **
 
