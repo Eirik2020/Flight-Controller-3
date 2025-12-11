@@ -1,6 +1,6 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP1,+3V3,Power 3V3,83.8000,36.5500,bottom,,VCC,TestPoint_Pad_2.0x2.0mm
-TP2,/Project Architecture/Microcontroller/SWDIO,Default,75.1000,36.5000,bottom,,SWDIO,TestPoint_Pad_2.0x2.0mm
-TP3,/Project Architecture/Microcontroller/SWCLK,Default,78.9500,36.4500,bottom,,SWCLK,TestPoint_Pad_2.0x2.0mm
-TP4,DGND,Default,93.4000,36.6050,bottom,,GND,TestPoint_Pad_2.0x2.0mm
-TP5,Net-(U3-NRST),Default,87.0500,36.5500,bottom,,RESET,TestPoint_Pad_2.0x2.0mm
+TP1,+3V3,Power 3V3,19.7000,-3.0500,bottom,,VCC,TestPoint_Pad_2.0x2.0mm
+TP2,/Project Architecture/Microcontroller/SWDIO,Default,11.0000,-3.1000,bottom,,SWDIO,TestPoint_Pad_2.0x2.0mm
+TP3,/Project Architecture/Microcontroller/SWCLK,Default,14.8500,-3.1500,bottom,,SWCLK,TestPoint_Pad_2.0x2.0mm
+TP4,DGND,Default,29.3000,-2.9950,bottom,,GND,TestPoint_Pad_2.0x2.0mm
+TP5,Net-(U3-NRST),Default,22.9500,-3.0500,bottom,,RESET,TestPoint_Pad_2.0x2.0mm
