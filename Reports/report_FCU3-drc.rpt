@@ -1,5 +1,5 @@
 ** Drc report for FCU3.kicad_pcb **
-** Created on 2025-12-13T00:28:54+0000 **
+** Created on 2025-12-13T18:46:26+0000 **
 
 ** Found 21 DRC violations **
 [lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'.
