@@ -172,7 +172,7 @@
 	(property "COMPANY" "Kaldstrand Electronics")
 	(property "DESIGNER" "Kaldstrand")
 	(property "FABRICATION_NOTES" "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KALDSTRAND ELECTRONICS.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				37.800 × 37.700 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.200 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.050 mm\n	COPPER TO HOLE		0.254 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.254 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
-	(property "GIT_HASH_PCB" "0c4f9ce")
+	(property "GIT_HASH_PCB" "20e7d85")
 	(property "GIT_HASH_SCH" "4dadb50")
 	(property "GIT_URL" "https://github.com/nguyen-v/KDT_Hierarchical_KiBot")
 	(property "PROJECT_NAME" "Flight Controller 3")
@@ -181,8 +181,8 @@
 	(property "RELEASE_BODY_1.0.2" "")
 	(property "RELEASE_BODY_1.1.0" "")
 	(property "RELEASE_BODY_UNRELEASED" "Version Unreleased not found.")
-	(property "RELEASE_DATE" "11-Dec-2025")
-	(property "RELEASE_DATE_NUM" "2025-12-11")
+	(property "RELEASE_DATE" "13-Dec-2025")
+	(property "RELEASE_DATE_NUM" "2025-12-13")
 	(property "RELEASE_TITLE_1.0.0" "")
 	(property "RELEASE_TITLE_1.0.1" "")
 	(property "RELEASE_TITLE_1.0.2" "")
@@ -600,7 +600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1479,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2736,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13471,7 +13471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14612,7 +14612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16817,7 +16817,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16984,7 +16984,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17186,7 +17186,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17354,7 +17354,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17522,7 +17522,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17690,7 +17690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17857,7 +17857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
